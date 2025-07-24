@@ -1,0 +1,21 @@
+[0.774s] Invoking command in '/home/pranav/ros2_ws/src/drone': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_py312_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/pranav/ros2_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_py312_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone build --build-base /home/pranav/ros2_ws/build/drone/build install --record /home/pranav/ros2_ws/build/drone/install.log --single-version-externally-managed install_data
+[0.911s] running egg_info
+[0.921s] writing ../../build/drone/drone.egg-info/PKG-INFO
+[0.921s] writing dependency_links to ../../build/drone/drone.egg-info/dependency_links.txt
+[0.922s] writing entry points to ../../build/drone/drone.egg-info/entry_points.txt
+[0.922s] writing requirements to ../../build/drone/drone.egg-info/requires.txt
+[0.922s] writing top-level names to ../../build/drone/drone.egg-info/top_level.txt
+[0.944s] reading manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+[0.947s] writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+[0.947s] running build
+[0.947s] running build_py
+[0.947s] running install
+[0.950s] running install_lib
+[0.961s] running install_data
+[0.961s] running install_egg_info
+[0.972s] removing '/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone-0.0.0-py3.12.egg-info' (and everything under it)
+[0.972s] Copying ../../build/drone/drone.egg-info to /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone-0.0.0-py3.12.egg-info
+[0.973s] running install_scripts
+[1.041s] Installing pathfinder script to /home/pranav/ros2_ws/install/drone/lib/drone
+[1.041s] writing list of installed files to '/home/pranav/ros2_ws/build/drone/install.log'
+[1.070s] Invoked command in '/home/pranav/ros2_ws/src/drone' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_py312_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/pranav/ros2_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_py312_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone build --build-base /home/pranav/ros2_ws/build/drone/build install --record /home/pranav/ros2_ws/build/drone/install.log --single-version-externally-managed install_data

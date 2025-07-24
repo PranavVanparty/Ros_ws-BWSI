@@ -1,0 +1,24 @@
+[1.016s] Invoking command in '/home/pranav/ros2_ws/build/drone': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_py312_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pranav/ros2_ws/build/drone/build --no-deps symlink_data
+[1.842s] running develop
+[2.201s] running egg_info
+[2.201s] creating drone.egg-info
+[2.258s] writing drone.egg-info/PKG-INFO
+[2.258s] writing dependency_links to drone.egg-info/dependency_links.txt
+[2.258s] writing entry points to drone.egg-info/entry_points.txt
+[2.258s] writing requirements to drone.egg-info/requires.txt
+[2.258s] writing top-level names to drone.egg-info/top_level.txt
+[2.258s] writing manifest file 'drone.egg-info/SOURCES.txt'
+[2.310s] reading manifest file 'drone.egg-info/SOURCES.txt'
+[2.310s] writing manifest file 'drone.egg-info/SOURCES.txt'
+[2.326s] running build_ext
+[2.326s] Creating /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone.egg-link (link to .)
+[2.326s] Installing pathfinder script to /home/pranav/ros2_ws/install/drone/lib/drone
+[2.327s] 
+[2.327s] Installed /home/pranav/ros2_ws/build/drone
+[2.327s] running symlink_data
+[2.327s] creating /home/pranav/ros2_ws/install/drone/share/ament_index
+[2.327s] creating /home/pranav/ros2_ws/install/drone/share/ament_index/resource_index
+[2.328s] creating /home/pranav/ros2_ws/install/drone/share/ament_index/resource_index/packages
+[2.333s] symbolically linking /home/pranav/ros2_ws/build/drone/resource/drone -> /home/pranav/ros2_ws/install/drone/share/ament_index/resource_index/packages
+[2.333s] symbolically linking /home/pranav/ros2_ws/build/drone/package.xml -> /home/pranav/ros2_ws/install/drone/share/drone
+[2.358s] Invoked command in '/home/pranav/ros2_ws/build/drone' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_py312_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pranav/ros2_ws/build/drone/build --no-deps symlink_data

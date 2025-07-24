@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating turtle_tag_game.egg-info
+writing turtle_tag_game.egg-info/PKG-INFO
+writing dependency_links to turtle_tag_game.egg-info/dependency_links.txt
+writing requirements to turtle_tag_game.egg-info/requires.txt
+writing top-level names to turtle_tag_game.egg-info/top_level.txt
+writing manifest file 'turtle_tag_game.egg-info/SOURCES.txt'
+reading manifest file 'turtle_tag_game.egg-info/SOURCES.txt'
+writing manifest file 'turtle_tag_game.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pranav/ros2_ws/install/turtle_tag_game/lib/python3.12/site-packages/turtle-tag-game.egg-link (link to .)
+
+Installed /home/pranav/ros2_ws/build/turtle_tag_game
+running symlink_data
+creating /home/pranav/ros2_ws/install/turtle_tag_game/share/ament_index
+creating /home/pranav/ros2_ws/install/turtle_tag_game/share/ament_index/resource_index
+creating /home/pranav/ros2_ws/install/turtle_tag_game/share/ament_index/resource_index/packages
+symbolically linking /home/pranav/ros2_ws/build/turtle_tag_game/resource/turtle_tag_game -> /home/pranav/ros2_ws/install/turtle_tag_game/share/ament_index/resource_index/packages
+symbolically linking /home/pranav/ros2_ws/build/turtle_tag_game/package.xml -> /home/pranav/ros2_ws/install/turtle_tag_game/share/turtle_tag_game

@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fizzbuzz_interfaces/msg/FizzBuzz.msg
+// generated code does not contain a copyright notice
+
+
+module fizzbuzz_interfaces {
+  module msg {
+    struct FizzBuzz {
+      @verbatim (language="comment", text=
+        "the result of the fizzbuzz function")
+      string fizzbuzz;
+
+      @verbatim (language="comment", text=
+        "the ratio of fizz results to non fizz results")
+      float fizz_ratio;
+
+      @verbatim (language="comment", text=
+        "the ratio of buzz results to non buzz results")
+      float buzz_ratio;
+
+      @verbatim (language="comment", text=
+        "the ratio of fizzbuzz results to non fizzbuzz results")
+      float fizzbuzz_ratio;
+
+      @verbatim (language="comment", text=
+        "the total number of numbers received.")
+      int32 number_total;
+    };
+  };
+};

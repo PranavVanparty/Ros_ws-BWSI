@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating pet.egg-info
+writing pet.egg-info/PKG-INFO
+writing dependency_links to pet.egg-info/dependency_links.txt
+writing entry points to pet.egg-info/entry_points.txt
+writing requirements to pet.egg-info/requires.txt
+writing top-level names to pet.egg-info/top_level.txt
+writing manifest file 'pet.egg-info/SOURCES.txt'
+reading manifest file 'pet.egg-info/SOURCES.txt'
+writing manifest file 'pet.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pranav/ros2_ws/install/pet/lib/python3.12/site-packages/pet.egg-link (link to .)
+Installing pose_subscriber script to /home/pranav/ros2_ws/install/pet/lib/pet
+Installing turtle_controller script to /home/pranav/ros2_ws/install/pet/lib/pet
+
+Installed /home/pranav/ros2_ws/build/pet
+running symlink_data
+creating /home/pranav/ros2_ws/install/pet/share/ament_index
+creating /home/pranav/ros2_ws/install/pet/share/ament_index/resource_index
+creating /home/pranav/ros2_ws/install/pet/share/ament_index/resource_index/packages
+symbolically linking /home/pranav/ros2_ws/build/pet/resource/pet -> /home/pranav/ros2_ws/install/pet/share/ament_index/resource_index/packages
+symbolically linking /home/pranav/ros2_ws/build/pet/package.xml -> /home/pranav/ros2_ws/install/pet/share/pet

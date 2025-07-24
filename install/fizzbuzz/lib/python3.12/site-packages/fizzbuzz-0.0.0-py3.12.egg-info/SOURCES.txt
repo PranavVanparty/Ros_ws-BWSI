@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/fizzbuzz/fizzbuzz.egg-info/PKG-INFO
+../../build/fizzbuzz/fizzbuzz.egg-info/SOURCES.txt
+../../build/fizzbuzz/fizzbuzz.egg-info/dependency_links.txt
+../../build/fizzbuzz/fizzbuzz.egg-info/entry_points.txt
+../../build/fizzbuzz/fizzbuzz.egg-info/requires.txt
+../../build/fizzbuzz/fizzbuzz.egg-info/top_level.txt
+../../build/fizzbuzz/fizzbuzz.egg-info/zip-safe
+fizzbuzz/__init__.py
+fizzbuzz/fizzbuzz_subscriber.py
+fizzbuzz/number_publisher.py
+resource/fizzbuzz
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

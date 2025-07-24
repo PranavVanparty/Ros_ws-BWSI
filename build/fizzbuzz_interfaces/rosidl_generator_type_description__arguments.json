@@ -1,0 +1,11 @@
+{
+  "package_name": "fizzbuzz_interfaces",
+  "output_dir": "/home/pranav/ros2_ws/build/fizzbuzz_interfaces/rosidl_generator_type_description/fizzbuzz_interfaces",
+  "idl_tuples": [
+    "/home/pranav/ros2_ws/build/fizzbuzz_interfaces/rosidl_adapter/fizzbuzz_interfaces:msg/FizzBuzz.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}
