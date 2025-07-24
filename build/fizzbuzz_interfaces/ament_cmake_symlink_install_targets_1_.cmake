@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pranav/ros2_ws/build/fizzbuzz_interfaces/rosidl_generator_py/fizzbuzz_interfaces/fizzbuzz_interfaces_s__rosidl_typesupport_introspection_c.so" "TARGETS" "fizzbuzz_interfaces_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/fizzbuzz_interfaces")

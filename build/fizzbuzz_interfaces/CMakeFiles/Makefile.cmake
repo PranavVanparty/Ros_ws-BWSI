@@ -20,9 +20,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "rosidl_cmake/rosidl_cmake-extras.cmake"
   "rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake"
   "rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake"
-  "/home/pranav/ros2_ws/src/fizzbuzz_interfaces/CMakeLists.txt"
-  "/home/pranav/ros2_ws/src/fizzbuzz_interfaces/msg/FizzBuzz.msg"
-  "/home/pranav/ros2_ws/src/fizzbuzz_interfaces/package.xml"
+  "/home/firefox/Ros_ws-BWSI/src/fizzbuzz_interfaces/CMakeLists.txt"
+  "/home/firefox/Ros_ws-BWSI/src/fizzbuzz_interfaces/msg/FizzBuzz.msg"
+  "/home/firefox/Ros_ws-BWSI/src/fizzbuzz_interfaces/package.xml"
   "/opt/ros/jazzy/lib/cmake/fastcdr/fastcdr-config-version.cmake"
   "/opt/ros/jazzy/lib/cmake/fastcdr/fastcdr-config.cmake"
   "/opt/ros/jazzy/lib/cmake/fastcdr/fastcdr-shared-targets-none.cmake"
@@ -611,7 +611,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "ament_cmake_environment_hooks/package.dsv"
   "ament_cmake_index/share/ament_index/resource_index/packages/fizzbuzz_interfaces"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "/home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -634,5 +634,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/fizzbuzz_interfaces_s__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake"
   "CMakeFiles/fizzbuzz_interfaces_s__rosidl_typesupport_introspection_c.dir/DependInfo.cmake"
   "CMakeFiles/fizzbuzz_interfaces_s__rosidl_typesupport_c.dir/DependInfo.cmake"
-  "/home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/DependInfo.cmake"
+  "/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/DependInfo.cmake"
   )

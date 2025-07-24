@@ -1,0 +1,546 @@
+[0.000000] (-) TimerEvent: {}
+[0.000391] (drone) JobQueued: {'identifier': 'drone', 'dependencies': OrderedDict()}
+[0.001024] (fizzbuzz_interfaces) JobQueued: {'identifier': 'fizzbuzz_interfaces', 'dependencies': OrderedDict()}
+[0.002724] (pet) JobQueued: {'identifier': 'pet', 'dependencies': OrderedDict()}
+[0.002882] (turtle_tag_game) JobQueued: {'identifier': 'turtle_tag_game', 'dependencies': OrderedDict()}
+[0.002923] (fizzbuzz) JobQueued: {'identifier': 'fizzbuzz', 'dependencies': OrderedDict({'fizzbuzz_interfaces': '/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces'})}
+[0.002977] (fizzbuzz_interfaces) JobStarted: {'identifier': 'fizzbuzz_interfaces'}
+[0.016953] (drone) JobStarted: {'identifier': 'drone'}
+[0.031019] (pet) JobStarted: {'identifier': 'pet'}
+[0.038442] (turtle_tag_game) JobStarted: {'identifier': 'turtle_tag_game'}
+[0.050650] (fizzbuzz_interfaces) JobProgress: {'identifier': 'fizzbuzz_interfaces', 'progress': 'cmake'}
+[0.054490] (fizzbuzz_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/firefox/Ros_ws-BWSI/src/fizzbuzz_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces'], 'cwd': '/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'firefox', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/firefox/camera_ws/install/camera_ros/lib:/home/firefox/camera_ws/install/libcamera/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/firefox', 'OLDPWD': '/home/firefox/Ros_ws-BWSI/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1814', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/firefox/camera_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'firefox', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/firefox/camera_ws/install/libcamera/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'firefox', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/firefox/camera_ws/install/libcamera/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/firefox-desktop:@/tmp/.ICE-unix/1784,unix/firefox-desktop:/tmp/.ICE-unix/1784', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d7592860_f897_42e6_9339_5aca24acfbfe', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.7R3PA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/firefox/camera_ws/install/uav_cam:/home/firefox/camera_ws/install/uav:/home/firefox/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/firefox/camera_ws/install/uav/lib/python3.12/site-packages:/home/firefox/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/firefox/camera_ws/install/uav_cam:/home/firefox/camera_ws/install/camera_ros:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/firefox/camera_ws/install/uav:/opt/ros/jazzy'}), 'shell': False}
+[0.099713] (-) TimerEvent: {}
+[0.200219] (-) TimerEvent: {}
+[0.300626] (-) TimerEvent: {}
+[0.401051] (-) TimerEvent: {}
+[0.501455] (-) TimerEvent: {}
+[0.601868] (-) TimerEvent: {}
+[0.702731] (-) TimerEvent: {}
+[0.803342] (-) TimerEvent: {}
+[0.867239] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.867629] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.867849] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.867946] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.868034] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.868121] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.868208] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.868293] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.868375] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.868457] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.868539] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.868620] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.868981] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.903454] (-) TimerEvent: {}
+[1.003869] (-) TimerEvent: {}
+[1.023323] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.103979] (-) TimerEvent: {}
+[1.199024] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.204105] (-) TimerEvent: {}
+[1.265805] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.292268] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.306791] (-) TimerEvent: {}
+[1.329378] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.367616] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.406917] (-) TimerEvent: {}
+[1.438623] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.466334] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.508053] (-) TimerEvent: {}
+[1.608442] (-) TimerEvent: {}
+[1.708884] (-) TimerEvent: {}
+[1.809219] (-) TimerEvent: {}
+[1.910723] (-) TimerEvent: {}
+[2.011103] (-) TimerEvent: {}
+[2.111427] (-) TimerEvent: {}
+[2.211803] (-) TimerEvent: {}
+[2.317676] (-) TimerEvent: {}
+[2.418169] (-) TimerEvent: {}
+[2.518523] (-) TimerEvent: {}
+[2.618906] (-) TimerEvent: {}
+[2.715799] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.721782] (-) TimerEvent: {}
+[2.820678] (drone) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drone', 'build', '--build-base', '/home/firefox/Ros_ws-BWSI/build/drone/build', 'install', '--record', '/home/firefox/Ros_ws-BWSI/build/drone/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/firefox/Ros_ws-BWSI/src/drone', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'firefox', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/firefox/camera_ws/install/camera_ros/lib:/home/firefox/camera_ws/install/libcamera/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/firefox', 'OLDPWD': '/home/firefox/Ros_ws-BWSI/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1814', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/firefox/camera_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'firefox', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/firefox/camera_ws/install/libcamera/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'firefox', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/firefox/camera_ws/install/libcamera/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/firefox-desktop:@/tmp/.ICE-unix/1784,unix/firefox-desktop:/tmp/.ICE-unix/1784', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d7592860_f897_42e6_9339_5aca24acfbfe', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.7R3PA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/firefox/camera_ws/install/uav_cam:/home/firefox/camera_ws/install/uav:/home/firefox/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/firefox/Ros_ws-BWSI/build/drone', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/firefox/Ros_ws-BWSI/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages:/home/firefox/camera_ws/install/uav/lib/python3.12/site-packages:/home/firefox/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/firefox/camera_ws/install/uav_cam:/home/firefox/camera_ws/install/camera_ros:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.823452] (-) TimerEvent: {}
+[2.834998] (turtle_tag_game) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_tag_game', 'build', '--build-base', '/home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build', 'install', '--record', '/home/firefox/Ros_ws-BWSI/build/turtle_tag_game/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/firefox/Ros_ws-BWSI/src/turtle_tag_game', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'firefox', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/firefox/camera_ws/install/camera_ros/lib:/home/firefox/camera_ws/install/libcamera/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/firefox', 'OLDPWD': '/home/firefox/Ros_ws-BWSI/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1814', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/firefox/camera_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'firefox', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/firefox/camera_ws/install/libcamera/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'firefox', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/firefox/camera_ws/install/libcamera/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/firefox-desktop:@/tmp/.ICE-unix/1784,unix/firefox-desktop:/tmp/.ICE-unix/1784', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d7592860_f897_42e6_9339_5aca24acfbfe', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.7R3PA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/firefox/camera_ws/install/uav_cam:/home/firefox/camera_ws/install/uav:/home/firefox/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/firefox/Ros_ws-BWSI/build/turtle_tag_game', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/firefox/Ros_ws-BWSI/build/turtle_tag_game/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages:/home/firefox/camera_ws/install/uav/lib/python3.12/site-packages:/home/firefox/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/firefox/camera_ws/install/uav_cam:/home/firefox/camera_ws/install/camera_ros:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.848410] (pet) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/pet', 'build', '--build-base', '/home/firefox/Ros_ws-BWSI/build/pet/build', 'install', '--record', '/home/firefox/Ros_ws-BWSI/build/pet/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/firefox/Ros_ws-BWSI/src/pet', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'firefox', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/firefox/camera_ws/install/camera_ros/lib:/home/firefox/camera_ws/install/libcamera/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/firefox', 'OLDPWD': '/home/firefox/Ros_ws-BWSI/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1814', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/firefox/camera_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'firefox', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/firefox/camera_ws/install/libcamera/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'firefox', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/firefox/camera_ws/install/libcamera/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/firefox-desktop:@/tmp/.ICE-unix/1784,unix/firefox-desktop:/tmp/.ICE-unix/1784', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d7592860_f897_42e6_9339_5aca24acfbfe', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.7R3PA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/firefox/camera_ws/install/uav_cam:/home/firefox/camera_ws/install/uav:/home/firefox/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/firefox/Ros_ws-BWSI/build/pet', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/firefox/Ros_ws-BWSI/build/pet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firefox/Ros_ws-BWSI/install/pet/lib/python3.12/site-packages:/home/firefox/camera_ws/install/uav/lib/python3.12/site-packages:/home/firefox/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/firefox/camera_ws/install/uav_cam:/home/firefox/camera_ws/install/camera_ros:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.928738] (-) TimerEvent: {}
+[3.029164] (-) TimerEvent: {}
+[3.129578] (-) TimerEvent: {}
+[3.229976] (-) TimerEvent: {}
+[3.330384] (-) TimerEvent: {}
+[3.347773] (turtle_tag_game) StdoutLine: {'line': b'running egg_info\n'}
+[3.348081] (turtle_tag_game) StdoutLine: {'line': b'creating ../../build/turtle_tag_game/turtle_tag_game.egg-info\n'}
+[3.371702] (drone) StdoutLine: {'line': b'running egg_info\n'}
+[3.372000] (drone) StdoutLine: {'line': b'creating ../../build/drone/drone.egg-info\n'}
+[3.375874] (turtle_tag_game) StdoutLine: {'line': b'writing ../../build/turtle_tag_game/turtle_tag_game.egg-info/PKG-INFO\n'}
+[3.377690] (turtle_tag_game) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_tag_game/turtle_tag_game.egg-info/dependency_links.txt\n'}
+[3.378518] (turtle_tag_game) StdoutLine: {'line': b'writing requirements to ../../build/turtle_tag_game/turtle_tag_game.egg-info/requires.txt\n'}
+[3.379473] (turtle_tag_game) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_tag_game/turtle_tag_game.egg-info/top_level.txt\n'}
+[3.380648] (turtle_tag_game) StdoutLine: {'line': b"writing manifest file '../../build/turtle_tag_game/turtle_tag_game.egg-info/SOURCES.txt'\n"}
+[3.387946] (pet) StdoutLine: {'line': b'running egg_info\n'}
+[3.388669] (pet) StdoutLine: {'line': b'creating ../../build/pet/pet.egg-info\n'}
+[3.398592] (drone) StdoutLine: {'line': b'writing ../../build/drone/drone.egg-info/PKG-INFO\n'}
+[3.400041] (drone) StdoutLine: {'line': b'writing dependency_links to ../../build/drone/drone.egg-info/dependency_links.txt\n'}
+[3.403026] (drone) StdoutLine: {'line': b'writing entry points to ../../build/drone/drone.egg-info/entry_points.txt\n'}
+[3.403373] (drone) StdoutLine: {'line': b'writing requirements to ../../build/drone/drone.egg-info/requires.txt\n'}
+[3.403493] (drone) StdoutLine: {'line': b'writing top-level names to ../../build/drone/drone.egg-info/top_level.txt\n'}
+[3.403585] (drone) StdoutLine: {'line': b"writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'\n"}
+[3.421655] (pet) StdoutLine: {'line': b'writing ../../build/pet/pet.egg-info/PKG-INFO\n'}
+[3.421899] (pet) StdoutLine: {'line': b'writing dependency_links to ../../build/pet/pet.egg-info/dependency_links.txt\n'}
+[3.421994] (pet) StdoutLine: {'line': b'writing entry points to ../../build/pet/pet.egg-info/entry_points.txt\n'}
+[3.422076] (pet) StdoutLine: {'line': b'writing requirements to ../../build/pet/pet.egg-info/requires.txt\n'}
+[3.422154] (pet) StdoutLine: {'line': b'writing top-level names to ../../build/pet/pet.egg-info/top_level.txt\n'}
+[3.422235] (pet) StdoutLine: {'line': b"writing manifest file '../../build/pet/pet.egg-info/SOURCES.txt'\n"}
+[3.430496] (-) TimerEvent: {}
+[3.449674] (turtle_tag_game) StdoutLine: {'line': b"reading manifest file '../../build/turtle_tag_game/turtle_tag_game.egg-info/SOURCES.txt'\n"}
+[3.451649] (turtle_tag_game) StdoutLine: {'line': b"writing manifest file '../../build/turtle_tag_game/turtle_tag_game.egg-info/SOURCES.txt'\n"}
+[3.451958] (turtle_tag_game) StdoutLine: {'line': b'running build\n'}
+[3.452321] (turtle_tag_game) StdoutLine: {'line': b'running build_py\n'}
+[3.452959] (turtle_tag_game) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build\n'}
+[3.454156] (turtle_tag_game) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build/lib\n'}
+[3.454374] (turtle_tag_game) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build/lib/turtle_tag_game\n'}
+[3.455942] (turtle_tag_game) StdoutLine: {'line': b'copying turtle_tag_game/__init__.py -> /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build/lib/turtle_tag_game\n'}
+[3.457157] (turtle_tag_game) StdoutLine: {'line': b'copying turtle_tag_game/pose_sub_and_pub.py -> /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build/lib/turtle_tag_game\n'}
+[3.457958] (turtle_tag_game) StdoutLine: {'line': b'running install\n'}
+[3.462317] (drone) StdoutLine: {'line': b"reading manifest file '../../build/drone/drone.egg-info/SOURCES.txt'\n"}
+[3.464014] (drone) StdoutLine: {'line': b"writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'\n"}
+[3.465229] (drone) StdoutLine: {'line': b'running build\n'}
+[3.466807] (drone) StdoutLine: {'line': b'running build_py\n'}
+[3.466979] (drone) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/build/drone/build\n'}
+[3.467080] (drone) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/build/drone/build/lib\n'}
+[3.467172] (drone) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/build/drone/build/lib/drone\n'}
+[3.467270] (drone) StdoutLine: {'line': b'copying drone/__init__.py -> /home/firefox/Ros_ws-BWSI/build/drone/build/lib/drone\n'}
+[3.467416] (drone) StdoutLine: {'line': b'copying drone/pathfinder.py -> /home/firefox/Ros_ws-BWSI/build/drone/build/lib/drone\n'}
+[3.467512] (drone) StdoutLine: {'line': b'copying drone/linearReg.py -> /home/firefox/Ros_ws-BWSI/build/drone/build/lib/drone\n'}
+[3.467695] (drone) StdoutLine: {'line': b'running install\n'}
+[3.473037] (turtle_tag_game) StdoutLine: {'line': b'running install_lib\n'}
+[3.476330] (drone) StdoutLine: {'line': b'running install_lib\n'}
+[3.489908] (pet) StdoutLine: {'line': b"reading manifest file '../../build/pet/pet.egg-info/SOURCES.txt'\n"}
+[3.491115] (pet) StdoutLine: {'line': b"writing manifest file '../../build/pet/pet.egg-info/SOURCES.txt'\n"}
+[3.491518] (pet) StdoutLine: {'line': b'running build\n'}
+[3.491711] (pet) StdoutLine: {'line': b'running build_py\n'}
+[3.492295] (pet) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/build/pet/build\n'}
+[3.492509] (pet) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/build/pet/build/lib\n'}
+[3.492890] (pet) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/build/pet/build/lib/pet\n'}
+[3.493527] (pet) StdoutLine: {'line': b'copying pet/turtle_controller.py -> /home/firefox/Ros_ws-BWSI/build/pet/build/lib/pet\n'}
+[3.494720] (pet) StdoutLine: {'line': b'copying pet/__init__.py -> /home/firefox/Ros_ws-BWSI/build/pet/build/lib/pet\n'}
+[3.494958] (pet) StdoutLine: {'line': b'copying pet/pose_subscriber.py -> /home/firefox/Ros_ws-BWSI/build/pet/build/lib/pet\n'}
+[3.495071] (pet) StdoutLine: {'line': b'running install\n'}
+[3.504412] (pet) StdoutLine: {'line': b'running install_lib\n'}
+[3.506199] (drone) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages/drone\n'}
+[3.506605] (drone) StdoutLine: {'line': b'copying /home/firefox/Ros_ws-BWSI/build/drone/build/lib/drone/__init__.py -> /home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages/drone\n'}
+[3.506778] (drone) StdoutLine: {'line': b'copying /home/firefox/Ros_ws-BWSI/build/drone/build/lib/drone/pathfinder.py -> /home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages/drone\n'}
+[3.506956] (drone) StdoutLine: {'line': b'copying /home/firefox/Ros_ws-BWSI/build/drone/build/lib/drone/linearReg.py -> /home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages/drone\n'}
+[3.507946] (drone) StdoutLine: {'line': b'byte-compiling /home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages/drone/__init__.py to __init__.cpython-312.pyc\n'}
+[3.508471] (drone) StdoutLine: {'line': b'byte-compiling /home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages/drone/pathfinder.py to pathfinder.cpython-312.pyc\n'}
+[3.509666] (turtle_tag_game) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages/turtle_tag_game\n'}
+[3.510307] (drone) StdoutLine: {'line': b'byte-compiling /home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages/drone/linearReg.py to linearReg.cpython-312.pyc\n'}
+[3.510925] (turtle_tag_game) StdoutLine: {'line': b'copying /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build/lib/turtle_tag_game/__init__.py -> /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages/turtle_tag_game\n'}
+[3.511328] (drone) StdoutLine: {'line': b'running install_data\n'}
+[3.512830] (drone) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/install/drone/share/ament_index\n'}
+[3.512956] (drone) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/install/drone/share/ament_index/resource_index\n'}
+[3.513041] (drone) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/install/drone/share/ament_index/resource_index/packages\n'}
+[3.513121] (drone) StdoutLine: {'line': b'copying resource/drone -> /home/firefox/Ros_ws-BWSI/install/drone/share/ament_index/resource_index/packages\n'}
+[3.513201] (drone) StdoutLine: {'line': b'copying package.xml -> /home/firefox/Ros_ws-BWSI/install/drone/share/drone\n'}
+[3.513278] (turtle_tag_game) StdoutLine: {'line': b'copying /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build/lib/turtle_tag_game/pose_sub_and_pub.py -> /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages/turtle_tag_game\n'}
+[3.513483] (drone) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.514128] (turtle_tag_game) StdoutLine: {'line': b'byte-compiling /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages/turtle_tag_game/__init__.py to __init__.cpython-312.pyc\n'}
+[3.516719] (turtle_tag_game) StdoutLine: {'line': b'byte-compiling /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages/turtle_tag_game/pose_sub_and_pub.py to pose_sub_and_pub.cpython-312.pyc\n'}
+[3.517330] (turtle_tag_game) StdoutLine: {'line': b'running install_data\n'}
+[3.518166] (turtle_tag_game) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/share/ament_index\n'}
+[3.519236] (turtle_tag_game) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/share/ament_index/resource_index\n'}
+[3.520993] (turtle_tag_game) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/share/ament_index/resource_index/packages\n'}
+[3.521782] (turtle_tag_game) StdoutLine: {'line': b'copying resource/turtle_tag_game -> /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/share/ament_index/resource_index/packages\n'}
+[3.522487] (turtle_tag_game) StdoutLine: {'line': b'copying package.xml -> /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/share/turtle_tag_game\n'}
+[3.522675] (turtle_tag_game) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.531726] (-) TimerEvent: {}
+[3.552185] (drone) StdoutLine: {'line': b'Copying ../../build/drone/drone.egg-info to /home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages/drone-0.0.0-py3.12.egg-info\n'}
+[3.553623] (drone) StdoutLine: {'line': b'running install_scripts\n'}
+[3.555917] (pet) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/install/pet/lib/python3.12/site-packages/pet\n'}
+[3.556863] (pet) StdoutLine: {'line': b'copying /home/firefox/Ros_ws-BWSI/build/pet/build/lib/pet/turtle_controller.py -> /home/firefox/Ros_ws-BWSI/install/pet/lib/python3.12/site-packages/pet\n'}
+[3.557196] (pet) StdoutLine: {'line': b'copying /home/firefox/Ros_ws-BWSI/build/pet/build/lib/pet/__init__.py -> /home/firefox/Ros_ws-BWSI/install/pet/lib/python3.12/site-packages/pet\n'}
+[3.557330] (pet) StdoutLine: {'line': b'copying /home/firefox/Ros_ws-BWSI/build/pet/build/lib/pet/pose_subscriber.py -> /home/firefox/Ros_ws-BWSI/install/pet/lib/python3.12/site-packages/pet\n'}
+[3.559403] (pet) StdoutLine: {'line': b'byte-compiling /home/firefox/Ros_ws-BWSI/install/pet/lib/python3.12/site-packages/pet/turtle_controller.py to turtle_controller.cpython-312.pyc\n'}
+[3.559802] (pet) StdoutLine: {'line': b'byte-compiling /home/firefox/Ros_ws-BWSI/install/pet/lib/python3.12/site-packages/pet/__init__.py to __init__.cpython-312.pyc\n'}
+[3.559966] (pet) StdoutLine: {'line': b'byte-compiling /home/firefox/Ros_ws-BWSI/install/pet/lib/python3.12/site-packages/pet/pose_subscriber.py to pose_subscriber.cpython-312.pyc\n'}
+[3.560530] (pet) StdoutLine: {'line': b'running install_data\n'}
+[3.560812] (pet) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/install/pet/share/ament_index\n'}
+[3.560960] (pet) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/install/pet/share/ament_index/resource_index\n'}
+[3.561121] (pet) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/install/pet/share/ament_index/resource_index/packages\n'}
+[3.561289] (pet) StdoutLine: {'line': b'copying resource/pet -> /home/firefox/Ros_ws-BWSI/install/pet/share/ament_index/resource_index/packages\n'}
+[3.561781] (pet) StdoutLine: {'line': b'copying package.xml -> /home/firefox/Ros_ws-BWSI/install/pet/share/pet\n'}
+[3.561942] (pet) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.569554] (turtle_tag_game) StdoutLine: {'line': b'Copying ../../build/turtle_tag_game/turtle_tag_game.egg-info to /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages/turtle_tag_game-0.0.0-py3.12.egg-info\n'}
+[3.572855] (turtle_tag_game) StdoutLine: {'line': b'running install_scripts\n'}
+[3.594054] (pet) StdoutLine: {'line': b'Copying ../../build/pet/pet.egg-info to /home/firefox/Ros_ws-BWSI/install/pet/lib/python3.12/site-packages/pet-0.0.0-py3.12.egg-info\n'}
+[3.595889] (pet) StdoutLine: {'line': b'running install_scripts\n'}
+[3.635737] (-) TimerEvent: {}
+[3.736136] (-) TimerEvent: {}
+[3.798065] (drone) StdoutLine: {'line': b'Installing pathfinder script to /home/firefox/Ros_ws-BWSI/install/drone/lib/drone\n'}
+[3.798999] (drone) StdoutLine: {'line': b"writing list of installed files to '/home/firefox/Ros_ws-BWSI/build/drone/install.log'\n"}
+[3.838752] (-) TimerEvent: {}
+[3.878477] (turtle_tag_game) StdoutLine: {'line': b"writing list of installed files to '/home/firefox/Ros_ws-BWSI/build/turtle_tag_game/install.log'\n"}
+[3.939076] (-) TimerEvent: {}
+[3.946714] (drone) CommandEnded: {'returncode': 0}
+[3.975509] (pet) StdoutLine: {'line': b'Installing pose_subscriber script to /home/firefox/Ros_ws-BWSI/install/pet/lib/pet\n'}
+[3.975877] (pet) StdoutLine: {'line': b'Installing turtle_controller script to /home/firefox/Ros_ws-BWSI/install/pet/lib/pet\n'}
+[3.977904] (drone) JobEnded: {'identifier': 'drone', 'rc': 0}
+[3.979115] (pet) StdoutLine: {'line': b"writing list of installed files to '/home/firefox/Ros_ws-BWSI/build/pet/install.log'\n"}
+[4.040771] (-) TimerEvent: {}
+[4.063038] (turtle_tag_game) CommandEnded: {'returncode': 0}
+[4.086953] (turtle_tag_game) JobEnded: {'identifier': 'turtle_tag_game', 'rc': 0}
+[4.143039] (-) TimerEvent: {}
+[4.147987] (pet) CommandEnded: {'returncode': 0}
+[4.169464] (pet) JobEnded: {'identifier': 'pet', 'rc': 0}
+[4.243164] (-) TimerEvent: {}
+[4.343501] (-) TimerEvent: {}
+[4.428682] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.443577] (-) TimerEvent: {}
+[4.543875] (-) TimerEvent: {}
+[4.644205] (-) TimerEvent: {}
+[4.744575] (-) TimerEvent: {}
+[4.845047] (-) TimerEvent: {}
+[4.925509] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.929830] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.945156] (-) TimerEvent: {}
+[5.045512] (-) TimerEvent: {}
+[5.145891] (-) TimerEvent: {}
+[5.149109] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[5.245990] (-) TimerEvent: {}
+[5.346316] (-) TimerEvent: {}
+[5.446658] (-) TimerEvent: {}
+[5.547018] (-) TimerEvent: {}
+[5.647380] (-) TimerEvent: {}
+[5.747696] (-) TimerEvent: {}
+[5.848053] (-) TimerEvent: {}
+[5.879429] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.948162] (-) TimerEvent: {}
+[5.954080] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.984429] (fizzbuzz_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.985796] (fizzbuzz_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.989945] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Configuring done (5.9s)\n'}
+[6.040522] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.048239] (-) TimerEvent: {}
+[6.061654] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces\n'}
+[6.081724] (fizzbuzz_interfaces) CommandEnded: {'returncode': 0}
+[6.082435] (fizzbuzz_interfaces) JobProgress: {'identifier': 'fizzbuzz_interfaces', 'progress': 'build'}
+[6.084017] (fizzbuzz_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'firefox', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/firefox/camera_ws/install/camera_ros/lib:/home/firefox/camera_ws/install/libcamera/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/firefox', 'OLDPWD': '/home/firefox/Ros_ws-BWSI/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1814', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/firefox/camera_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'firefox', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/firefox/camera_ws/install/libcamera/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'firefox', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/firefox/camera_ws/install/libcamera/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/firefox-desktop:@/tmp/.ICE-unix/1784,unix/firefox-desktop:/tmp/.ICE-unix/1784', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d7592860_f897_42e6_9339_5aca24acfbfe', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.7R3PA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/firefox/camera_ws/install/uav_cam:/home/firefox/camera_ws/install/uav:/home/firefox/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/firefox/camera_ws/install/uav/lib/python3.12/site-packages:/home/firefox/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/firefox/camera_ws/install/uav_cam:/home/firefox/camera_ws/install/camera_ros:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/firefox/camera_ws/install/uav:/opt/ros/jazzy'}), 'shell': False}
+[6.148373] (-) TimerEvent: {}
+[6.180377] (fizzbuzz_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[6.204755] (fizzbuzz_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_fizzbuzz_interfaces\n'}
+[6.250738] (-) TimerEvent: {}
+[6.351129] (-) TimerEvent: {}
+[6.451580] (-) TimerEvent: {}
+[6.555066] (-) TimerEvent: {}
+[6.655587] (-) TimerEvent: {}
+[6.709772] (fizzbuzz_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.710074] (fizzbuzz_interfaces) StdoutLine: {'line': b'creating fizzbuzz_interfaces.egg-info\n'}
+[6.747997] (fizzbuzz_interfaces) StdoutLine: {'line': b'writing fizzbuzz_interfaces.egg-info/PKG-INFO\n'}
+[6.748409] (fizzbuzz_interfaces) StdoutLine: {'line': b'writing dependency_links to fizzbuzz_interfaces.egg-info/dependency_links.txt\n'}
+[6.748861] (fizzbuzz_interfaces) StdoutLine: {'line': b'writing top-level names to fizzbuzz_interfaces.egg-info/top_level.txt\n'}
+[6.751707] (fizzbuzz_interfaces) StdoutLine: {'line': b"writing manifest file 'fizzbuzz_interfaces.egg-info/SOURCES.txt'\n"}
+[6.755751] (fizzbuzz_interfaces) StdoutLine: {'line': b'[  2%] Built target fizzbuzz_interfaces__rosidl_generator_type_description\n'}
+[6.756017] (-) TimerEvent: {}
+[6.780120] (fizzbuzz_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.801784] (fizzbuzz_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.844579] (fizzbuzz_interfaces) StdoutLine: {'line': b"reading manifest file 'fizzbuzz_interfaces.egg-info/SOURCES.txt'\n"}
+[6.845733] (fizzbuzz_interfaces) StdoutLine: {'line': b"writing manifest file 'fizzbuzz_interfaces.egg-info/SOURCES.txt'\n"}
+[6.856195] (-) TimerEvent: {}
+[6.951359] (fizzbuzz_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_fizzbuzz_interfaces_egg\n'}
+[6.956267] (-) TimerEvent: {}
+[7.056573] (-) TimerEvent: {}
+[7.156900] (-) TimerEvent: {}
+[7.260040] (-) TimerEvent: {}
+[7.319015] (fizzbuzz_interfaces) StdoutLine: {'line': b'[  8%] Built target fizzbuzz_interfaces__cpp\n'}
+[7.348679] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/fizzbuzz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/fizzbuzz_interfaces/msg/detail/fizz_buzz__functions.c.o\x1b[0m\n'}
+[7.349031] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/fizzbuzz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/fizzbuzz_interfaces/msg/detail/fizz_buzz__description.c.o\x1b[0m\n'}
+[7.349162] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/fizzbuzz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/fizzbuzz_interfaces/msg/detail/fizz_buzz__type_support.c.o\x1b[0m\n'}
+[7.360123] (-) TimerEvent: {}
+[7.460494] (-) TimerEvent: {}
+[7.554737] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libfizzbuzz_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[7.560572] (-) TimerEvent: {}
+[7.631817] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 20%] Built target fizzbuzz_interfaces__rosidl_generator_c\n'}
+[7.655720] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.656141] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.657827] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.660823] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.661205] (-) TimerEvent: {}
+[7.764356] (-) TimerEvent: {}
+[7.864717] (-) TimerEvent: {}
+[7.965083] (-) TimerEvent: {}
+[8.065448] (-) TimerEvent: {}
+[8.168360] (-) TimerEvent: {}
+[8.203382] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/fizzbuzz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/fizzbuzz_interfaces/msg/fizz_buzz__type_support.cpp.o\x1b[0m\n'}
+[8.251956] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/fizzbuzz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fizzbuzz_interfaces/msg/detail/fizz_buzz__type_support.c.o\x1b[0m\n'}
+[8.268675] (-) TimerEvent: {}
+[8.269097] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/fizzbuzz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fizzbuzz_interfaces/msg/detail/fizz_buzz__type_support.cpp.o\x1b[0m\n'}
+[8.313822] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/fizzbuzz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fizzbuzz_interfaces/msg/detail/dds_fastrtps/fizz_buzz__type_support.cpp.o\x1b[0m\n'}
+[8.339695] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libfizzbuzz_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.344113] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libfizzbuzz_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.368788] (-) TimerEvent: {}
+[8.420379] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 50%] Built target fizzbuzz_interfaces__rosidl_typesupport_introspection_c\n'}
+[8.430837] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 50%] Built target fizzbuzz_interfaces__rosidl_typesupport_c\n'}
+[8.441252] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.455980] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.471720] (-) TimerEvent: {}
+[8.572126] (-) TimerEvent: {}
+[8.672527] (-) TimerEvent: {}
+[8.772956] (-) TimerEvent: {}
+[8.873355] (-) TimerEvent: {}
+[8.973734] (-) TimerEvent: {}
+[9.004777] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/fizzbuzz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fizzbuzz_interfaces/msg/fizz_buzz__type_support.cpp.o\x1b[0m\n'}
+[9.073880] (-) TimerEvent: {}
+[9.089729] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libfizzbuzz_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.155089] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/fizzbuzz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fizzbuzz_interfaces/msg/detail/fizz_buzz__type_support_c.cpp.o\x1b[0m\n'}
+[9.177775] (-) TimerEvent: {}
+[9.278324] (-) TimerEvent: {}
+[9.282125] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 64%] Built target fizzbuzz_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[9.378468] (-) TimerEvent: {}
+[9.478906] (-) TimerEvent: {}
+[9.506724] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libfizzbuzz_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.579202] (-) TimerEvent: {}
+[9.683141] (-) TimerEvent: {}
+[9.716985] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 67%] Built target fizzbuzz_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.721747] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libfizzbuzz_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.783273] (-) TimerEvent: {}
+[9.801497] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 70%] Built target fizzbuzz_interfaces__rosidl_typesupport_cpp\n'}
+[9.883388] (-) TimerEvent: {}
+[9.983720] (-) TimerEvent: {}
+[10.034406] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libfizzbuzz_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.083875] (-) TimerEvent: {}
+[10.184323] (-) TimerEvent: {}
+[10.195249] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 73%] Built target fizzbuzz_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.234052] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 73%] Built target fizzbuzz_interfaces\n'}
+[10.273279] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.284416] (-) TimerEvent: {}
+[10.384736] (-) TimerEvent: {}
+[10.485056] (-) TimerEvent: {}
+[10.585369] (-) TimerEvent: {}
+[10.685704] (-) TimerEvent: {}
+[10.786035] (-) TimerEvent: {}
+[10.813722] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 76%] Built target fizzbuzz_interfaces__py\n'}
+[10.851423] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/fizzbuzz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fizzbuzz_interfaces/msg/_fizz_buzz_s.c.o\x1b[0m\n'}
+[10.886168] (-) TimerEvent: {}
+[10.986523] (-) TimerEvent: {}
+[11.086910] (-) TimerEvent: {}
+[11.152414] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libfizzbuzz_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[11.187038] (-) TimerEvent: {}
+[11.238143] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 82%] Built target fizzbuzz_interfaces__rosidl_generator_py\n'}
+[11.277383] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/fizzbuzz_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.279604] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/fizzbuzz_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.279973] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/fizzbuzz_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.287815] (-) TimerEvent: {}
+[11.388336] (-) TimerEvent: {}
+[11.464444] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/fizzbuzz_interfaces/fizzbuzz_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.468622] (fizzbuzz_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/fizzbuzz_interfaces/fizzbuzz_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.473143] (fizzbuzz_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/fizzbuzz_interfaces/fizzbuzz_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.488466] (-) TimerEvent: {}
+[11.533356] (fizzbuzz_interfaces) StdoutLine: {'line': b'[100%] Built target fizzbuzz_interfaces_s__rosidl_typesupport_c\n'}
+[11.536610] (fizzbuzz_interfaces) StdoutLine: {'line': b'[100%] Built target fizzbuzz_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[11.544861] (fizzbuzz_interfaces) StdoutLine: {'line': b'[100%] Built target fizzbuzz_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[11.566933] (fizzbuzz_interfaces) CommandEnded: {'returncode': 0}
+[11.568016] (fizzbuzz_interfaces) JobProgress: {'identifier': 'fizzbuzz_interfaces', 'progress': 'install'}
+[11.586581] (fizzbuzz_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces'], 'cwd': '/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'firefox', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/firefox/camera_ws/install/camera_ros/lib:/home/firefox/camera_ws/install/libcamera/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/firefox', 'OLDPWD': '/home/firefox/Ros_ws-BWSI/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1814', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/firefox/camera_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'firefox', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/firefox/camera_ws/install/libcamera/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'firefox', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/firefox/camera_ws/install/libcamera/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/firefox-desktop:@/tmp/.ICE-unix/1784,unix/firefox-desktop:/tmp/.ICE-unix/1784', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d7592860_f897_42e6_9339_5aca24acfbfe', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.7R3PA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/firefox/camera_ws/install/uav_cam:/home/firefox/camera_ws/install/uav:/home/firefox/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/firefox/camera_ws/install/uav/lib/python3.12/site-packages:/home/firefox/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/firefox/camera_ws/install/uav_cam:/home/firefox/camera_ws/install/camera_ros:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/firefox/camera_ws/install/uav:/opt/ros/jazzy'}), 'shell': False}
+[11.588529] (-) TimerEvent: {}
+[11.606920] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.607241] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/ament_index/resource_index/rosidl_interfaces/fizzbuzz_interfaces\n'}
+[11.607523] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/msg/FizzBuzz.json\n'}
+[11.607720] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces\n'}
+[11.607886] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg\n'}
+[11.608004] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.608129] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail\n'}
+[11.608238] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail/fizz_buzz__functions.h\n'}
+[11.608377] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail/fizz_buzz__struct.h\n'}
+[11.608506] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail/fizz_buzz__functions.c\n'}
+[11.608656] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail/fizz_buzz__type_support.h\n'}
+[11.608785] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail/fizz_buzz__description.c\n'}
+[11.608920] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail/fizz_buzz__type_support.c\n'}
+[11.609046] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/fizz_buzz.h\n'}
+[11.609277] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/environment/library_path.sh\n'}
+[11.609447] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/environment/library_path.dsv\n'}
+[11.609703] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/libfizzbuzz_interfaces__rosidl_generator_c.so\n'}
+[11.610436] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/libfizzbuzz_interfaces__rosidl_generator_c.so" to ""\n'}
+[11.610569] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces\n'}
+[11.610711] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg\n'}
+[11.610812] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.610938] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail\n'}
+[11.611069] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail/fizz_buzz__rosidl_typesupport_fastrtps_c.h\n'}
+[11.611158] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/libfizzbuzz_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[11.611769] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/libfizzbuzz_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.611906] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces\n'}
+[11.611996] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg\n'}
+[11.612114] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/fizz_buzz.hpp\n'}
+[11.612213] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail\n'}
+[11.612290] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail/fizz_buzz__builder.hpp\n'}
+[11.612404] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail/fizz_buzz__type_support.hpp\n'}
+[11.612514] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail/fizz_buzz__struct.hpp\n'}
+[11.612630] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail/fizz_buzz__traits.hpp\n'}
+[11.612736] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[11.612855] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces\n'}
+[11.612972] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg\n'}
+[11.613059] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail\n'}
+[11.613175] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail/dds_fastrtps\n'}
+[11.613262] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail/fizz_buzz__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.613378] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.613498] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/libfizzbuzz_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.614132] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/libfizzbuzz_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.614325] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces\n'}
+[11.614424] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg\n'}
+[11.614552] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail\n'}
+[11.614653] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail/fizz_buzz__rosidl_typesupport_introspection_c.h\n'}
+[11.614756] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail/fizz_buzz__type_support.c\n'}
+[11.614902] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.615016] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/libfizzbuzz_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[11.615516] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/libfizzbuzz_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.615617] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/libfizzbuzz_interfaces__rosidl_typesupport_c.so\n'}
+[11.616260] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/libfizzbuzz_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[11.616460] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces\n'}
+[11.616564] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg\n'}
+[11.616690] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail\n'}
+[11.616784] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail/fizz_buzz__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.616870] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/include/fizzbuzz_interfaces/fizzbuzz_interfaces/msg/detail/fizz_buzz__type_support.cpp\n'}
+[11.616981] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/libfizzbuzz_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[11.617497] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/libfizzbuzz_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.617615] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/libfizzbuzz_interfaces__rosidl_typesupport_cpp.so\n'}
+[11.618213] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/libfizzbuzz_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[11.618334] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/environment/pythonpath.sh\n'}
+[11.618455] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/environment/pythonpath.dsv\n'}
+[11.618602] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces-0.0.0-py3.12.egg-info\n'}
+[11.618780] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[11.618913] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[11.619040] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[11.619166] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[11.619327] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces\n'}
+[11.619445] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/fizzbuzz_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[11.619727] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/fizzbuzz_interfaces_s__rosidl_typesupport_c.so\n'}
+[11.620002] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/fizzbuzz_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[11.620270] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/__init__.py\n'}
+[11.620386] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.620514] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/msg\n'}
+[11.620618] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/msg/_fizz_buzz_s.c\n'}
+[11.620794] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/msg/__init__.py\n'}
+[11.620920] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/msg/_fizz_buzz.py\n'}
+[11.621063] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.621196] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[11.679061] (fizzbuzz_interfaces) StdoutLine: {'line': b"Listing '/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces'...\n"}
+[11.679323] (fizzbuzz_interfaces) StdoutLine: {'line': b"Compiling '/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/__init__.py'...\n"}
+[11.679415] (fizzbuzz_interfaces) StdoutLine: {'line': b"Listing '/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/msg'...\n"}
+[11.679505] (fizzbuzz_interfaces) StdoutLine: {'line': b"Compiling '/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/msg/__init__.py'...\n"}
+[11.679598] (fizzbuzz_interfaces) StdoutLine: {'line': b"Compiling '/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/msg/_fizz_buzz.py'...\n"}
+[11.688621] (-) TimerEvent: {}
+[11.693159] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/fizzbuzz_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[11.694750] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/fizzbuzz_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.695348] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/fizzbuzz_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[11.696193] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/fizzbuzz_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.696772] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/fizzbuzz_interfaces_s__rosidl_typesupport_c.so\n'}
+[11.697440] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages/fizzbuzz_interfaces/fizzbuzz_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[11.697561] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/libfizzbuzz_interfaces__rosidl_generator_py.so\n'}
+[11.698288] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/libfizzbuzz_interfaces__rosidl_generator_py.so" to ""\n'}
+[11.698429] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/msg/FizzBuzz.idl\n'}
+[11.698580] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/msg/FizzBuzz.msg\n'}
+[11.698845] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/ament_index/resource_index/package_run_dependencies/fizzbuzz_interfaces\n'}
+[11.699068] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/ament_index/resource_index/parent_prefix_path/fizzbuzz_interfaces\n'}
+[11.699246] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/environment/ament_prefix_path.sh\n'}
+[11.699407] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/environment/ament_prefix_path.dsv\n'}
+[11.699571] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/environment/path.sh\n'}
+[11.699765] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/environment/path.dsv\n'}
+[11.699939] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/local_setup.bash\n'}
+[11.700106] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/local_setup.sh\n'}
+[11.700278] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/local_setup.zsh\n'}
+[11.700438] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/local_setup.dsv\n'}
+[11.700595] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/package.dsv\n'}
+[11.700829] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/ament_index/resource_index/packages/fizzbuzz_interfaces\n'}
+[11.701048] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/export_fizzbuzz_interfaces__rosidl_generator_cExport.cmake\n'}
+[11.701239] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/export_fizzbuzz_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.701461] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/export_fizzbuzz_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.701609] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/export_fizzbuzz_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.701806] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/export_fizzbuzz_interfaces__rosidl_generator_cppExport.cmake\n'}
+[11.701998] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/export_fizzbuzz_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.702171] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/export_fizzbuzz_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.702368] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/fizzbuzz_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.702543] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/fizzbuzz_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.702756] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/fizzbuzz_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[11.702937] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/fizzbuzz_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.703131] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/fizzbuzz_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.703322] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/fizzbuzz_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.703519] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/fizzbuzz_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[11.703741] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/fizzbuzz_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.703945] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/export_fizzbuzz_interfaces__rosidl_generator_pyExport.cmake\n'}
+[11.704129] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/export_fizzbuzz_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.704318] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[11.704497] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.704689] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.704866] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.705047] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.705220] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.705388] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.705564] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/fizzbuzz_interfacesConfig.cmake\n'}
+[11.705710] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/cmake/fizzbuzz_interfacesConfig-version.cmake\n'}
+[11.705875] (fizzbuzz_interfaces) StdoutLine: {'line': b'-- Installing: /home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/package.xml\n'}
+[11.709672] (fizzbuzz_interfaces) CommandEnded: {'returncode': 0}
+[11.755517] (fizzbuzz_interfaces) JobEnded: {'identifier': 'fizzbuzz_interfaces', 'rc': 0}
+[11.757443] (fizzbuzz) JobStarted: {'identifier': 'fizzbuzz'}
+[11.788741] (-) TimerEvent: {}
+[11.889049] (-) TimerEvent: {}
+[11.989354] (-) TimerEvent: {}
+[12.089714] (-) TimerEvent: {}
+[12.190119] (-) TimerEvent: {}
+[12.290446] (-) TimerEvent: {}
+[12.390758] (-) TimerEvent: {}
+[12.491055] (-) TimerEvent: {}
+[12.601773] (-) TimerEvent: {}
+[12.702066] (-) TimerEvent: {}
+[12.802360] (-) TimerEvent: {}
+[12.902691] (-) TimerEvent: {}
+[12.971180] (fizzbuzz) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/fizzbuzz', 'build', '--build-base', '/home/firefox/Ros_ws-BWSI/build/fizzbuzz/build', 'install', '--record', '/home/firefox/Ros_ws-BWSI/build/fizzbuzz/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/firefox/Ros_ws-BWSI/src/fizzbuzz', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'firefox', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib:/home/firefox/camera_ws/install/camera_ros/lib:/home/firefox/camera_ws/install/libcamera/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/firefox', 'OLDPWD': '/home/firefox/Ros_ws-BWSI/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1814', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/firefox/camera_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'firefox', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/firefox/camera_ws/install/libcamera/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'firefox', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/firefox/camera_ws/install/libcamera/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/firefox-desktop:@/tmp/.ICE-unix/1784,unix/firefox-desktop:/tmp/.ICE-unix/1784', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d7592860_f897_42e6_9339_5aca24acfbfe', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.7R3PA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces:/home/firefox/camera_ws/install/uav_cam:/home/firefox/camera_ws/install/uav:/home/firefox/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/firefox/Ros_ws-BWSI/build/fizzbuzz', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/firefox/Ros_ws-BWSI/build/fizzbuzz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages:/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages:/home/firefox/camera_ws/install/uav/lib/python3.12/site-packages:/home/firefox/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces:/home/firefox/camera_ws/install/uav_cam:/home/firefox/camera_ws/install/camera_ros:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[13.002774] (-) TimerEvent: {}
+[13.103057] (-) TimerEvent: {}
+[13.203351] (-) TimerEvent: {}
+[13.303654] (-) TimerEvent: {}
+[13.332714] (fizzbuzz) StdoutLine: {'line': b'running egg_info\n'}
+[13.333244] (fizzbuzz) StdoutLine: {'line': b'creating ../../build/fizzbuzz/fizzbuzz.egg-info\n'}
+[13.356360] (fizzbuzz) StdoutLine: {'line': b'writing ../../build/fizzbuzz/fizzbuzz.egg-info/PKG-INFO\n'}
+[13.356806] (fizzbuzz) StdoutLine: {'line': b'writing dependency_links to ../../build/fizzbuzz/fizzbuzz.egg-info/dependency_links.txt\n'}
+[13.357095] (fizzbuzz) StdoutLine: {'line': b'writing entry points to ../../build/fizzbuzz/fizzbuzz.egg-info/entry_points.txt\n'}
+[13.357295] (fizzbuzz) StdoutLine: {'line': b'writing requirements to ../../build/fizzbuzz/fizzbuzz.egg-info/requires.txt\n'}
+[13.357431] (fizzbuzz) StdoutLine: {'line': b'writing top-level names to ../../build/fizzbuzz/fizzbuzz.egg-info/top_level.txt\n'}
+[13.357583] (fizzbuzz) StdoutLine: {'line': b"writing manifest file '../../build/fizzbuzz/fizzbuzz.egg-info/SOURCES.txt'\n"}
+[13.403705] (-) TimerEvent: {}
+[13.406524] (fizzbuzz) StdoutLine: {'line': b"reading manifest file '../../build/fizzbuzz/fizzbuzz.egg-info/SOURCES.txt'\n"}
+[13.410750] (fizzbuzz) StdoutLine: {'line': b"writing manifest file '../../build/fizzbuzz/fizzbuzz.egg-info/SOURCES.txt'\n"}
+[13.411163] (fizzbuzz) StdoutLine: {'line': b'running build\n'}
+[13.411309] (fizzbuzz) StdoutLine: {'line': b'running build_py\n'}
+[13.411439] (fizzbuzz) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build\n'}
+[13.411557] (fizzbuzz) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build/lib\n'}
+[13.411713] (fizzbuzz) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build/lib/fizzbuzz\n'}
+[13.412237] (fizzbuzz) StdoutLine: {'line': b'copying fizzbuzz/number_publisher.py -> /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build/lib/fizzbuzz\n'}
+[13.412464] (fizzbuzz) StdoutLine: {'line': b'copying fizzbuzz/__init__.py -> /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build/lib/fizzbuzz\n'}
+[13.412616] (fizzbuzz) StdoutLine: {'line': b'copying fizzbuzz/fizzbuzz_subscriber.py -> /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build/lib/fizzbuzz\n'}
+[13.412799] (fizzbuzz) StdoutLine: {'line': b'running install\n'}
+[13.423808] (fizzbuzz) StdoutLine: {'line': b'running install_lib\n'}
+[13.447954] (fizzbuzz) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages/fizzbuzz\n'}
+[13.448126] (fizzbuzz) StdoutLine: {'line': b'copying /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build/lib/fizzbuzz/number_publisher.py -> /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages/fizzbuzz\n'}
+[13.448324] (fizzbuzz) StdoutLine: {'line': b'copying /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build/lib/fizzbuzz/__init__.py -> /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages/fizzbuzz\n'}
+[13.448468] (fizzbuzz) StdoutLine: {'line': b'copying /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build/lib/fizzbuzz/fizzbuzz_subscriber.py -> /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages/fizzbuzz\n'}
+[13.449345] (fizzbuzz) StdoutLine: {'line': b'byte-compiling /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages/fizzbuzz/number_publisher.py to number_publisher.cpython-312.pyc\n'}
+[13.450106] (fizzbuzz) StdoutLine: {'line': b'byte-compiling /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages/fizzbuzz/__init__.py to __init__.cpython-312.pyc\n'}
+[13.450376] (fizzbuzz) StdoutLine: {'line': b'byte-compiling /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages/fizzbuzz/fizzbuzz_subscriber.py to fizzbuzz_subscriber.cpython-312.pyc\n'}
+[13.451207] (fizzbuzz) StdoutLine: {'line': b'running install_data\n'}
+[13.451343] (fizzbuzz) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/install/fizzbuzz/share/ament_index\n'}
+[13.451461] (fizzbuzz) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/install/fizzbuzz/share/ament_index/resource_index\n'}
+[13.451574] (fizzbuzz) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/install/fizzbuzz/share/ament_index/resource_index/packages\n'}
+[13.451710] (fizzbuzz) StdoutLine: {'line': b'copying resource/fizzbuzz -> /home/firefox/Ros_ws-BWSI/install/fizzbuzz/share/ament_index/resource_index/packages\n'}
+[13.451858] (fizzbuzz) StdoutLine: {'line': b'copying package.xml -> /home/firefox/Ros_ws-BWSI/install/fizzbuzz/share/fizzbuzz\n'}
+[13.452056] (fizzbuzz) StdoutLine: {'line': b'creating /home/firefox/Ros_ws-BWSI/install/fizzbuzz/share/fizzbuzz/launch\n'}
+[13.452210] (fizzbuzz) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.478115] (fizzbuzz) StdoutLine: {'line': b'Copying ../../build/fizzbuzz/fizzbuzz.egg-info to /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages/fizzbuzz-0.0.0-py3.12.egg-info\n'}
+[13.479344] (fizzbuzz) StdoutLine: {'line': b'running install_scripts\n'}
+[13.503792] (-) TimerEvent: {}
+[13.604073] (-) TimerEvent: {}
+[13.662838] (fizzbuzz) StdoutLine: {'line': b'Installing fizzbuzz_subscriber script to /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/fizzbuzz\n'}
+[13.663138] (fizzbuzz) StdoutLine: {'line': b'Installing number_publisher script to /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/fizzbuzz\n'}
+[13.663669] (fizzbuzz) StdoutLine: {'line': b"writing list of installed files to '/home/firefox/Ros_ws-BWSI/build/fizzbuzz/install.log'\n"}
+[13.704177] (-) TimerEvent: {}
+[13.742256] (fizzbuzz) CommandEnded: {'returncode': 0}
+[13.749617] (fizzbuzz) JobEnded: {'identifier': 'fizzbuzz', 'rc': 0}
+[13.752726] (-) EventReactorShutdown: {}

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pranav/ros2_ws/src/fizzbuzz_interfaces
+CMAKE_SOURCE_DIR = /home/firefox/Ros_ws-BWSI/src/fizzbuzz_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pranav/ros2_ws/build/fizzbuzz_interfaces
+CMAKE_BINARY_DIR = /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces
 
 # Utility rule file for fizzbuzz_interfaces_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/fizzbuzz_interfaces_uninstall.dir/compiler_depend.make
 include CMakeFiles/fizzbuzz_interfaces_uninstall.dir/progress.make
 
 CMakeFiles/fizzbuzz_interfaces_uninstall:
-	/usr/bin/cmake -P /home/pranav/ros2_ws/build/fizzbuzz_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 fizzbuzz_interfaces_uninstall: CMakeFiles/fizzbuzz_interfaces_uninstall
 fizzbuzz_interfaces_uninstall: CMakeFiles/fizzbuzz_interfaces_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/fizzbuzz_interfaces_uninstall.dir/clean:
 .PHONY : CMakeFiles/fizzbuzz_interfaces_uninstall.dir/clean
 
 CMakeFiles/fizzbuzz_interfaces_uninstall.dir/depend:
-	cd /home/pranav/ros2_ws/build/fizzbuzz_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pranav/ros2_ws/src/fizzbuzz_interfaces /home/pranav/ros2_ws/src/fizzbuzz_interfaces /home/pranav/ros2_ws/build/fizzbuzz_interfaces /home/pranav/ros2_ws/build/fizzbuzz_interfaces /home/pranav/ros2_ws/build/fizzbuzz_interfaces/CMakeFiles/fizzbuzz_interfaces_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/firefox/Ros_ws-BWSI/src/fizzbuzz_interfaces /home/firefox/Ros_ws-BWSI/src/fizzbuzz_interfaces /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/CMakeFiles/fizzbuzz_interfaces_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/fizzbuzz_interfaces_uninstall.dir/depend
 

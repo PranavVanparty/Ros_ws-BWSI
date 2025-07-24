@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/drone/drone.egg-info/PKG-INFO
+writing dependency_links to ../../build/drone/drone.egg-info/dependency_links.txt
+writing entry points to ../../build/drone/drone.egg-info/entry_points.txt
+writing requirements to ../../build/drone/drone.egg-info/requires.txt
+writing top-level names to ../../build/drone/drone.egg-info/top_level.txt
+reading manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+running build
+running build_py
+copying drone/pathfinder.py -> /home/firefox/Ros_ws-BWSI/build/drone/build/lib/drone
+running install
+running install_lib
+copying /home/firefox/Ros_ws-BWSI/build/drone/build/lib/drone/pathfinder.py -> /home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages/drone
+byte-compiling /home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages/drone/pathfinder.py to pathfinder.cpython-312.pyc
+running install_data
+copying package.xml -> /home/firefox/Ros_ws-BWSI/install/drone/share/drone
+running install_egg_info
+removing '/home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages/drone-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/drone/drone.egg-info to /home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages/drone-0.0.0-py3.12.egg-info
+running install_scripts
+Installing pathfinder script to /home/firefox/Ros_ws-BWSI/install/drone/lib/drone
+writing list of installed files to '/home/firefox/Ros_ws-BWSI/build/drone/install.log'

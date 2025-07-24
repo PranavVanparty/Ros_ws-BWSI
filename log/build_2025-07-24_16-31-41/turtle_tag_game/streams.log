@@ -1,0 +1,35 @@
+[2.797s] Invoking command in '/home/firefox/Ros_ws-BWSI/src/turtle_tag_game': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/firefox/Ros_ws-BWSI/build/turtle_tag_game/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_tag_game build --build-base /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build install --record /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/install.log --single-version-externally-managed install_data
+[3.309s] running egg_info
+[3.309s] creating ../../build/turtle_tag_game/turtle_tag_game.egg-info
+[3.337s] writing ../../build/turtle_tag_game/turtle_tag_game.egg-info/PKG-INFO
+[3.339s] writing dependency_links to ../../build/turtle_tag_game/turtle_tag_game.egg-info/dependency_links.txt
+[3.340s] writing requirements to ../../build/turtle_tag_game/turtle_tag_game.egg-info/requires.txt
+[3.341s] writing top-level names to ../../build/turtle_tag_game/turtle_tag_game.egg-info/top_level.txt
+[3.342s] writing manifest file '../../build/turtle_tag_game/turtle_tag_game.egg-info/SOURCES.txt'
+[3.411s] reading manifest file '../../build/turtle_tag_game/turtle_tag_game.egg-info/SOURCES.txt'
+[3.413s] writing manifest file '../../build/turtle_tag_game/turtle_tag_game.egg-info/SOURCES.txt'
+[3.413s] running build
+[3.414s] running build_py
+[3.414s] creating /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build
+[3.415s] creating /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build/lib
+[3.416s] creating /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build/lib/turtle_tag_game
+[3.417s] copying turtle_tag_game/__init__.py -> /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build/lib/turtle_tag_game
+[3.418s] copying turtle_tag_game/pose_sub_and_pub.py -> /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build/lib/turtle_tag_game
+[3.419s] running install
+[3.434s] running install_lib
+[3.471s] creating /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages/turtle_tag_game
+[3.472s] copying /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build/lib/turtle_tag_game/__init__.py -> /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages/turtle_tag_game
+[3.475s] copying /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build/lib/turtle_tag_game/pose_sub_and_pub.py -> /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages/turtle_tag_game
+[3.475s] byte-compiling /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages/turtle_tag_game/__init__.py to __init__.cpython-312.pyc
+[3.478s] byte-compiling /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages/turtle_tag_game/pose_sub_and_pub.py to pose_sub_and_pub.cpython-312.pyc
+[3.479s] running install_data
+[3.480s] creating /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/share/ament_index
+[3.481s] creating /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/share/ament_index/resource_index
+[3.483s] creating /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/share/ament_index/resource_index/packages
+[3.483s] copying resource/turtle_tag_game -> /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/share/ament_index/resource_index/packages
+[3.484s] copying package.xml -> /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/share/turtle_tag_game
+[3.484s] running install_egg_info
+[3.531s] Copying ../../build/turtle_tag_game/turtle_tag_game.egg-info to /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages/turtle_tag_game-0.0.0-py3.12.egg-info
+[3.534s] running install_scripts
+[3.840s] writing list of installed files to '/home/firefox/Ros_ws-BWSI/build/turtle_tag_game/install.log'
+[4.024s] Invoked command in '/home/firefox/Ros_ws-BWSI/src/turtle_tag_game' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/firefox/Ros_ws-BWSI/build/turtle_tag_game/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_tag_game build --build-base /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build install --record /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/install.log --single-version-externally-managed install_data

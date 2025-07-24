@@ -1,1 +1,1 @@
-cv_bridge:numpy:opencv-python:rclpy:sensor_msgs
+cv_bridge:linearReg:numpy:opencv-python:rclpy:sensor_msgs

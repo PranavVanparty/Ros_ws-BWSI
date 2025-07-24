@@ -1,0 +1,19 @@
+[3.232s] Invoking command in '/home/firefox/Ros_ws-BWSI/src/turtle_tag_game': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/firefox/Ros_ws-BWSI/build/turtle_tag_game/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_tag_game build --build-base /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build install --record /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/install.log --single-version-externally-managed install_data
+[3.788s] running egg_info
+[3.830s] writing ../../build/turtle_tag_game/turtle_tag_game.egg-info/PKG-INFO
+[3.832s] writing dependency_links to ../../build/turtle_tag_game/turtle_tag_game.egg-info/dependency_links.txt
+[3.834s] writing requirements to ../../build/turtle_tag_game/turtle_tag_game.egg-info/requires.txt
+[3.835s] writing top-level names to ../../build/turtle_tag_game/turtle_tag_game.egg-info/top_level.txt
+[3.978s] reading manifest file '../../build/turtle_tag_game/turtle_tag_game.egg-info/SOURCES.txt'
+[3.979s] writing manifest file '../../build/turtle_tag_game/turtle_tag_game.egg-info/SOURCES.txt'
+[3.980s] running build
+[3.980s] running build_py
+[3.980s] running install
+[3.992s] running install_lib
+[4.032s] running install_data
+[4.032s] running install_egg_info
+[4.082s] removing '/home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages/turtle_tag_game-0.0.0-py3.12.egg-info' (and everything under it)
+[4.085s] Copying ../../build/turtle_tag_game/turtle_tag_game.egg-info to /home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages/turtle_tag_game-0.0.0-py3.12.egg-info
+[4.086s] running install_scripts
+[4.420s] writing list of installed files to '/home/firefox/Ros_ws-BWSI/build/turtle_tag_game/install.log'
+[4.521s] Invoked command in '/home/firefox/Ros_ws-BWSI/src/turtle_tag_game' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/firefox/Ros_ws-BWSI/build/turtle_tag_game/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_tag_game build --build-base /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/build install --record /home/firefox/Ros_ws-BWSI/build/turtle_tag_game/install.log --single-version-externally-managed install_data

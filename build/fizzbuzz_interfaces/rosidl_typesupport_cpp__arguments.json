@@ -1,9 +1,9 @@
 {
   "package_name": "fizzbuzz_interfaces",
-  "output_dir": "/home/pranav/ros2_ws/build/fizzbuzz_interfaces/rosidl_typesupport_cpp/fizzbuzz_interfaces",
+  "output_dir": "/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/rosidl_typesupport_cpp/fizzbuzz_interfaces",
   "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/home/pranav/ros2_ws/build/fizzbuzz_interfaces/rosidl_adapter/fizzbuzz_interfaces:msg/FizzBuzz.idl"
+    "/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/rosidl_adapter/fizzbuzz_interfaces:msg/FizzBuzz.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
@@ -46,7 +46,7 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
-    "/home/pranav/ros2_ws/build/fizzbuzz_interfaces/rosidl_adapter/fizzbuzz_interfaces/msg/FizzBuzz.idl",
+    "/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/rosidl_adapter/fizzbuzz_interfaces/msg/FizzBuzz.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Byte.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl",

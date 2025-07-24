@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "fizzbuzz_interfaces__py",
+		"source" : "/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py"
+	}
+}

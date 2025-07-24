@@ -1,0 +1,42 @@
+[1.215s] Invoking command in '/home/firefox/Ros_ws-BWSI/src/fizzbuzz': AMENT_PREFIX_PATH=/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/firefox/Ros_ws-BWSI/build/fizzbuzz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages:/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fizzbuzz build --build-base /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build install --record /home/firefox/Ros_ws-BWSI/build/fizzbuzz/install.log --single-version-externally-managed install_data
+[1.575s] running egg_info
+[1.576s] creating ../../build/fizzbuzz/fizzbuzz.egg-info
+[1.599s] writing ../../build/fizzbuzz/fizzbuzz.egg-info/PKG-INFO
+[1.599s] writing dependency_links to ../../build/fizzbuzz/fizzbuzz.egg-info/dependency_links.txt
+[1.600s] writing entry points to ../../build/fizzbuzz/fizzbuzz.egg-info/entry_points.txt
+[1.600s] writing requirements to ../../build/fizzbuzz/fizzbuzz.egg-info/requires.txt
+[1.600s] writing top-level names to ../../build/fizzbuzz/fizzbuzz.egg-info/top_level.txt
+[1.600s] writing manifest file '../../build/fizzbuzz/fizzbuzz.egg-info/SOURCES.txt'
+[1.649s] reading manifest file '../../build/fizzbuzz/fizzbuzz.egg-info/SOURCES.txt'
+[1.654s] writing manifest file '../../build/fizzbuzz/fizzbuzz.egg-info/SOURCES.txt'
+[1.654s] running build
+[1.654s] running build_py
+[1.654s] creating /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build
+[1.654s] creating /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build/lib
+[1.654s] creating /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build/lib/fizzbuzz
+[1.655s] copying fizzbuzz/number_publisher.py -> /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build/lib/fizzbuzz
+[1.655s] copying fizzbuzz/__init__.py -> /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build/lib/fizzbuzz
+[1.655s] copying fizzbuzz/fizzbuzz_subscriber.py -> /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build/lib/fizzbuzz
+[1.655s] running install
+[1.667s] running install_lib
+[1.691s] creating /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages/fizzbuzz
+[1.691s] copying /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build/lib/fizzbuzz/number_publisher.py -> /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages/fizzbuzz
+[1.691s] copying /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build/lib/fizzbuzz/__init__.py -> /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages/fizzbuzz
+[1.691s] copying /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build/lib/fizzbuzz/fizzbuzz_subscriber.py -> /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages/fizzbuzz
+[1.692s] byte-compiling /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages/fizzbuzz/number_publisher.py to number_publisher.cpython-312.pyc
+[1.693s] byte-compiling /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages/fizzbuzz/__init__.py to __init__.cpython-312.pyc
+[1.693s] byte-compiling /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages/fizzbuzz/fizzbuzz_subscriber.py to fizzbuzz_subscriber.cpython-312.pyc
+[1.694s] running install_data
+[1.694s] creating /home/firefox/Ros_ws-BWSI/install/fizzbuzz/share/ament_index
+[1.694s] creating /home/firefox/Ros_ws-BWSI/install/fizzbuzz/share/ament_index/resource_index
+[1.694s] creating /home/firefox/Ros_ws-BWSI/install/fizzbuzz/share/ament_index/resource_index/packages
+[1.694s] copying resource/fizzbuzz -> /home/firefox/Ros_ws-BWSI/install/fizzbuzz/share/ament_index/resource_index/packages
+[1.694s] copying package.xml -> /home/firefox/Ros_ws-BWSI/install/fizzbuzz/share/fizzbuzz
+[1.695s] creating /home/firefox/Ros_ws-BWSI/install/fizzbuzz/share/fizzbuzz/launch
+[1.695s] running install_egg_info
+[1.721s] Copying ../../build/fizzbuzz/fizzbuzz.egg-info to /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages/fizzbuzz-0.0.0-py3.12.egg-info
+[1.722s] running install_scripts
+[1.906s] Installing fizzbuzz_subscriber script to /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/fizzbuzz
+[1.906s] Installing number_publisher script to /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/fizzbuzz
+[1.906s] writing list of installed files to '/home/firefox/Ros_ws-BWSI/build/fizzbuzz/install.log'
+[1.985s] Invoked command in '/home/firefox/Ros_ws-BWSI/src/fizzbuzz' returned '0': AMENT_PREFIX_PATH=/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/firefox/Ros_ws-BWSI/build/fizzbuzz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages:/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fizzbuzz build --build-base /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build install --record /home/firefox/Ros_ws-BWSI/build/fizzbuzz/install.log --single-version-externally-managed install_data

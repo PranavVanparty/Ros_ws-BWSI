@@ -9,7 +9,6 @@ setup.py
 ../../build/drone/drone.egg-info/top_level.txt
 ../../build/drone/drone.egg-info/zip-safe
 drone/__init__.py
-drone/linearReg.py
 drone/pathfinder.py
 resource/drone
 test/test_copyright.py

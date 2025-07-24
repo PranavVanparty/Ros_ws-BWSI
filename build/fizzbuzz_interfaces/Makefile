@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pranav/ros2_ws/src/fizzbuzz_interfaces
+CMAKE_SOURCE_DIR = /home/firefox/Ros_ws-BWSI/src/fizzbuzz_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pranav/ros2_ws/build/fizzbuzz_interfaces
+CMAKE_BINARY_DIR = /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/ros2_ws/build/fizzbuzz_interfaces/CMakeFiles /home/pranav/ros2_ws/build/fizzbuzz_interfaces//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/CMakeFiles /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/ros2_ws/build/fizzbuzz_interfaces/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -415,7 +415,7 @@ fizzbuzz_interfaces__py: cmake_check_build_system
 
 # fast build rule for target.
 fizzbuzz_interfaces__py/fast:
-	$(MAKE) $(MAKESILENT) -f /home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/build.make /home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/build.make /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/build
 .PHONY : fizzbuzz_interfaces__py/fast
 
 rosidl_generator_c/fizzbuzz_interfaces/msg/detail/fizz_buzz__description.o: rosidl_generator_c/fizzbuzz_interfaces/msg/detail/fizz_buzz__description.c.o

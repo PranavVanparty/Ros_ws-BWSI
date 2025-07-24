@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3a5efab66ebe1f8d1cba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "fizzbuzz_interfaces__py",
+					"jsonFile" : "directory-fizzbuzz_interfaces__py-52e2bc9412bd4a5ea2a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "fizzbuzz_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_fizzbuzz_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_fizzbuzz_interfaces_egg-2020f775f258e2293e9d.json",
+					"name" : "ament_cmake_python_build_fizzbuzz_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_fizzbuzz_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_fizzbuzz_interfaces-e479dc997b7c3a965692.json",
+					"name" : "ament_cmake_python_copy_fizzbuzz_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fizzbuzz_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fizzbuzz_interfaces-f7dfa89aec16c133c5a3.json",
+					"name" : "fizzbuzz_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fizzbuzz_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fizzbuzz_interfaces__cpp-b710d5042e37e3333249.json",
+					"name" : "fizzbuzz_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fizzbuzz_interfaces__py::@296dce696cbe66d5ae1c",
+					"jsonFile" : "target-fizzbuzz_interfaces__py-fa3dcf7a1776c4ac24e6.json",
+					"name" : "fizzbuzz_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fizzbuzz_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fizzbuzz_interfaces__rosidl_generator_c-00b7fe9de2f0d184ef07.json",
+					"name" : "fizzbuzz_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fizzbuzz_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fizzbuzz_interfaces__rosidl_generator_py-c1e8596d0f5390737e48.json",
+					"name" : "fizzbuzz_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fizzbuzz_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fizzbuzz_interfaces__rosidl_generator_type_description-ae2f94b718ced82ab1c7.json",
+					"name" : "fizzbuzz_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fizzbuzz_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fizzbuzz_interfaces__rosidl_typesupport_c-c224df673a3f2bfaf9cc.json",
+					"name" : "fizzbuzz_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fizzbuzz_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fizzbuzz_interfaces__rosidl_typesupport_cpp-15e8d562f2c58d90ae0f.json",
+					"name" : "fizzbuzz_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fizzbuzz_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fizzbuzz_interfaces__rosidl_typesupport_fastrtps_c-5b73bc235ffd491d16be.json",
+					"name" : "fizzbuzz_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fizzbuzz_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fizzbuzz_interfaces__rosidl_typesupport_fastrtps_cpp-fa81e735b97600110ec1.json",
+					"name" : "fizzbuzz_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fizzbuzz_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fizzbuzz_interfaces__rosidl_typesupport_introspection_c-81479eff3a3ffa1c4a2d.json",
+					"name" : "fizzbuzz_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fizzbuzz_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fizzbuzz_interfaces__rosidl_typesupport_introspection_cpp-dbd9a50fbda52b71ef18.json",
+					"name" : "fizzbuzz_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fizzbuzz_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fizzbuzz_interfaces_s__rosidl_typesupport_c-a90248f44f06dfe7785d.json",
+					"name" : "fizzbuzz_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fizzbuzz_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fizzbuzz_interfaces_s__rosidl_typesupport_fastrtps_c-35a69849b1e96a2c64dc.json",
+					"name" : "fizzbuzz_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fizzbuzz_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fizzbuzz_interfaces_s__rosidl_typesupport_introspection_c-222ba6ac2f454bd6a9a0.json",
+					"name" : "fizzbuzz_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fizzbuzz_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fizzbuzz_interfaces_uninstall-3a99b2f14ab6c48b82e9.json",
+					"name" : "fizzbuzz_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4c5a2d9a11110afc883a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces",
+		"source" : "/home/firefox/Ros_ws-BWSI/src/fizzbuzz_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

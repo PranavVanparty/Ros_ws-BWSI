@@ -53,25 +53,25 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pranav/ros2_ws/src/fizzbuzz_interfaces
+CMAKE_SOURCE_DIR = /home/firefox/Ros_ws-BWSI/src/fizzbuzz_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pranav/ros2_ws/build/fizzbuzz_interfaces
+CMAKE_BINARY_DIR = /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces
 
 # Utility rule file for fizzbuzz_interfaces__py.
 
 # Include any custom commands dependencies for this target.
-include /home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/compiler_depend.make
+include /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/compiler_depend.make
 
 # Include the progress variables for this target.
-include /home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/progress.make
+include /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/progress.make
 
-/home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py: rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-/home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py: rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_introspection_c.c
-/home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py: rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_c.c
-/home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py: rosidl_generator_py/fizzbuzz_interfaces/msg/_fizz_buzz.py
-/home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py: rosidl_generator_py/fizzbuzz_interfaces/msg/__init__.py
-/home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py: rosidl_generator_py/fizzbuzz_interfaces/msg/_fizz_buzz_s.c
+/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py: rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py: rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py: rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_c.c
+/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py: rosidl_generator_py/fizzbuzz_interfaces/msg/_fizz_buzz.py
+/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py: rosidl_generator_py/fizzbuzz_interfaces/msg/__init__.py
+/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py: rosidl_generator_py/fizzbuzz_interfaces/msg/_fizz_buzz_s.c
 
 rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -119,8 +119,8 @@ rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesup
 rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/pranav/ros2_ws/build/fizzbuzz_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py && /home/pranav/miniconda3/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/pranav/ros2_ws/build/fizzbuzz_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_introspection_c.c
@@ -137,25 +137,25 @@ rosidl_generator_py/fizzbuzz_interfaces/msg/__init__.py: rosidl_generator_py/fiz
 rosidl_generator_py/fizzbuzz_interfaces/msg/_fizz_buzz_s.c: rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/fizzbuzz_interfaces/msg/_fizz_buzz_s.c
 
-fizzbuzz_interfaces__py: /home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py
+fizzbuzz_interfaces__py: /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py
 fizzbuzz_interfaces__py: rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_c.c
 fizzbuzz_interfaces__py: rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 fizzbuzz_interfaces__py: rosidl_generator_py/fizzbuzz_interfaces/_fizzbuzz_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 fizzbuzz_interfaces__py: rosidl_generator_py/fizzbuzz_interfaces/msg/__init__.py
 fizzbuzz_interfaces__py: rosidl_generator_py/fizzbuzz_interfaces/msg/_fizz_buzz.py
 fizzbuzz_interfaces__py: rosidl_generator_py/fizzbuzz_interfaces/msg/_fizz_buzz_s.c
-fizzbuzz_interfaces__py: /home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/build.make
+fizzbuzz_interfaces__py: /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/build.make
 .PHONY : fizzbuzz_interfaces__py
 
 # Rule to build all files generated by this target.
-/home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/build: fizzbuzz_interfaces__py
-.PHONY : /home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/build
+/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/build: fizzbuzz_interfaces__py
+.PHONY : /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/build
 
-/home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/clean:
-	cd /home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/fizzbuzz_interfaces__py.dir/cmake_clean.cmake
-.PHONY : /home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/clean
+/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/clean:
+	cd /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/fizzbuzz_interfaces__py.dir/cmake_clean.cmake
+.PHONY : /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/clean
 
-/home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/depend:
-	cd /home/pranav/ros2_ws/build/fizzbuzz_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pranav/ros2_ws/src/fizzbuzz_interfaces /home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py /home/pranav/ros2_ws/build/fizzbuzz_interfaces /home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py /home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/DependInfo.cmake "--color=$(COLOR)"
-.PHONY : /home/pranav/ros2_ws/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/depend
+/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/depend:
+	cd /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/firefox/Ros_ws-BWSI/src/fizzbuzz_interfaces /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/DependInfo.cmake "--color=$(COLOR)"
+.PHONY : /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/fizzbuzz_interfaces__py/CMakeFiles/fizzbuzz_interfaces__py.dir/depend
 

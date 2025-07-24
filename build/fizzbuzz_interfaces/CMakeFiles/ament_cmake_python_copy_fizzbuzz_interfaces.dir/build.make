@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pranav/ros2_ws/src/fizzbuzz_interfaces
+CMAKE_SOURCE_DIR = /home/firefox/Ros_ws-BWSI/src/fizzbuzz_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pranav/ros2_ws/build/fizzbuzz_interfaces
+CMAKE_BINARY_DIR = /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces
 
 # Utility rule file for ament_cmake_python_copy_fizzbuzz_interfaces.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_fizzbuzz_interfaces.dir/compiler_depe
 include CMakeFiles/ament_cmake_python_copy_fizzbuzz_interfaces.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_fizzbuzz_interfaces:
-	/usr/bin/cmake -E copy_directory /home/pranav/ros2_ws/build/fizzbuzz_interfaces/rosidl_generator_py/fizzbuzz_interfaces /home/pranav/ros2_ws/build/fizzbuzz_interfaces/ament_cmake_python/fizzbuzz_interfaces/fizzbuzz_interfaces
+	/usr/bin/cmake -E copy_directory /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/rosidl_generator_py/fizzbuzz_interfaces /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/ament_cmake_python/fizzbuzz_interfaces/fizzbuzz_interfaces
 
 ament_cmake_python_copy_fizzbuzz_interfaces: CMakeFiles/ament_cmake_python_copy_fizzbuzz_interfaces
 ament_cmake_python_copy_fizzbuzz_interfaces: CMakeFiles/ament_cmake_python_copy_fizzbuzz_interfaces.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_fizzbuzz_interfaces.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_fizzbuzz_interfaces.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_fizzbuzz_interfaces.dir/depend:
-	cd /home/pranav/ros2_ws/build/fizzbuzz_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pranav/ros2_ws/src/fizzbuzz_interfaces /home/pranav/ros2_ws/src/fizzbuzz_interfaces /home/pranav/ros2_ws/build/fizzbuzz_interfaces /home/pranav/ros2_ws/build/fizzbuzz_interfaces /home/pranav/ros2_ws/build/fizzbuzz_interfaces/CMakeFiles/ament_cmake_python_copy_fizzbuzz_interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/firefox/Ros_ws-BWSI/src/fizzbuzz_interfaces /home/firefox/Ros_ws-BWSI/src/fizzbuzz_interfaces /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/CMakeFiles/ament_cmake_python_copy_fizzbuzz_interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_copy_fizzbuzz_interfaces.dir/depend
 

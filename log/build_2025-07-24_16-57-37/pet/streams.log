@@ -1,0 +1,22 @@
+[3.083s] Invoking command in '/home/firefox/Ros_ws-BWSI/src/pet': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/firefox/Ros_ws-BWSI/build/pet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firefox/Ros_ws-BWSI/install/pet/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pet build --build-base /home/firefox/Ros_ws-BWSI/build/pet/build install --record /home/firefox/Ros_ws-BWSI/build/pet/install.log --single-version-externally-managed install_data
+[3.678s] running egg_info
+[3.718s] writing ../../build/pet/pet.egg-info/PKG-INFO
+[3.718s] writing dependency_links to ../../build/pet/pet.egg-info/dependency_links.txt
+[3.726s] writing entry points to ../../build/pet/pet.egg-info/entry_points.txt
+[3.729s] writing requirements to ../../build/pet/pet.egg-info/requires.txt
+[3.730s] writing top-level names to ../../build/pet/pet.egg-info/top_level.txt
+[3.810s] reading manifest file '../../build/pet/pet.egg-info/SOURCES.txt'
+[3.811s] writing manifest file '../../build/pet/pet.egg-info/SOURCES.txt'
+[3.812s] running build
+[3.813s] running build_py
+[3.813s] running install
+[3.826s] running install_lib
+[3.870s] running install_data
+[3.870s] running install_egg_info
+[3.910s] removing '/home/firefox/Ros_ws-BWSI/install/pet/lib/python3.12/site-packages/pet-0.0.0-py3.12.egg-info' (and everything under it)
+[3.911s] Copying ../../build/pet/pet.egg-info to /home/firefox/Ros_ws-BWSI/install/pet/lib/python3.12/site-packages/pet-0.0.0-py3.12.egg-info
+[3.914s] running install_scripts
+[4.210s] Installing pose_subscriber script to /home/firefox/Ros_ws-BWSI/install/pet/lib/pet
+[4.210s] Installing turtle_controller script to /home/firefox/Ros_ws-BWSI/install/pet/lib/pet
+[4.215s] writing list of installed files to '/home/firefox/Ros_ws-BWSI/build/pet/install.log'
+[4.400s] Invoked command in '/home/firefox/Ros_ws-BWSI/src/pet' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/firefox/Ros_ws-BWSI/build/pet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firefox/Ros_ws-BWSI/install/pet/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pet build --build-base /home/firefox/Ros_ws-BWSI/build/pet/build install --record /home/firefox/Ros_ws-BWSI/build/pet/install.log --single-version-externally-managed install_data

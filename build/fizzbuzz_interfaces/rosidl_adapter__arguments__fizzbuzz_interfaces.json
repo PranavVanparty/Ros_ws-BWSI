@@ -1,6 +1,6 @@
 {
   "package_name": "fizzbuzz_interfaces",
   "non_idl_tuples": [
-    "/home/pranav/ros2_ws/src/fizzbuzz_interfaces:msg/FizzBuzz.msg"
+    "/home/firefox/Ros_ws-BWSI/src/fizzbuzz_interfaces:msg/FizzBuzz.msg"
   ]
 }

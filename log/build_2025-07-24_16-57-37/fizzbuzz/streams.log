@@ -1,0 +1,22 @@
+[2.218s] Invoking command in '/home/firefox/Ros_ws-BWSI/src/fizzbuzz': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/firefox/Ros_ws-BWSI/build/fizzbuzz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages:/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages:/home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages:/home/firefox/Ros_ws-BWSI/install/pet/lib/python3.12/site-packages:/home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages:/home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages:/home/firefox/camera_ws/install/uav/lib/python3.12/site-packages:/home/firefox/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fizzbuzz build --build-base /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build install --record /home/firefox/Ros_ws-BWSI/build/fizzbuzz/install.log --single-version-externally-managed install_data
+[2.887s] running egg_info
+[2.923s] writing ../../build/fizzbuzz/fizzbuzz.egg-info/PKG-INFO
+[2.925s] writing dependency_links to ../../build/fizzbuzz/fizzbuzz.egg-info/dependency_links.txt
+[2.925s] writing entry points to ../../build/fizzbuzz/fizzbuzz.egg-info/entry_points.txt
+[2.925s] writing requirements to ../../build/fizzbuzz/fizzbuzz.egg-info/requires.txt
+[2.925s] writing top-level names to ../../build/fizzbuzz/fizzbuzz.egg-info/top_level.txt
+[2.984s] reading manifest file '../../build/fizzbuzz/fizzbuzz.egg-info/SOURCES.txt'
+[2.986s] writing manifest file '../../build/fizzbuzz/fizzbuzz.egg-info/SOURCES.txt'
+[2.987s] running build
+[2.987s] running build_py
+[2.987s] running install
+[2.999s] running install_lib
+[3.030s] running install_data
+[3.030s] running install_egg_info
+[3.061s] removing '/home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages/fizzbuzz-0.0.0-py3.12.egg-info' (and everything under it)
+[3.061s] Copying ../../build/fizzbuzz/fizzbuzz.egg-info to /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages/fizzbuzz-0.0.0-py3.12.egg-info
+[3.063s] running install_scripts
+[3.280s] Installing fizzbuzz_subscriber script to /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/fizzbuzz
+[3.280s] Installing number_publisher script to /home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/fizzbuzz
+[3.281s] writing list of installed files to '/home/firefox/Ros_ws-BWSI/build/fizzbuzz/install.log'
+[3.375s] Invoked command in '/home/firefox/Ros_ws-BWSI/src/fizzbuzz' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/firefox/Ros_ws-BWSI/build/fizzbuzz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages:/home/firefox/Ros_ws-BWSI/install/fizzbuzz_interfaces/lib/python3.12/site-packages:/home/firefox/Ros_ws-BWSI/install/turtle_tag_game/lib/python3.12/site-packages:/home/firefox/Ros_ws-BWSI/install/pet/lib/python3.12/site-packages:/home/firefox/Ros_ws-BWSI/install/fizzbuzz/lib/python3.12/site-packages:/home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages:/home/firefox/camera_ws/install/uav/lib/python3.12/site-packages:/home/firefox/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fizzbuzz build --build-base /home/firefox/Ros_ws-BWSI/build/fizzbuzz/build install --record /home/firefox/Ros_ws-BWSI/build/fizzbuzz/install.log --single-version-externally-managed install_data

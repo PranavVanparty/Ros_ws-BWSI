@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pranav/ros2_ws/src/fizzbuzz_interfaces
+CMAKE_SOURCE_DIR = /home/firefox/Ros_ws-BWSI/src/fizzbuzz_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pranav/ros2_ws/build/fizzbuzz_interfaces
+CMAKE_BINARY_DIR = /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces
 
 # Utility rule file for fizzbuzz_interfaces__rosidl_generator_type_description.
 
@@ -71,8 +71,8 @@ CMakeFiles/fizzbuzz_interfaces__rosidl_generator_type_description: rosidl_genera
 rosidl_generator_type_description/fizzbuzz_interfaces/msg/FizzBuzz.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/fizzbuzz_interfaces/msg/FizzBuzz.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/fizzbuzz_interfaces/msg/FizzBuzz.json: rosidl_adapter/fizzbuzz_interfaces/msg/FizzBuzz.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/pranav/ros2_ws/build/fizzbuzz_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
-	/home/pranav/miniconda3/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/pranav/ros2_ws/build/fizzbuzz_interfaces/rosidl_generator_type_description__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
+	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/rosidl_generator_type_description__arguments.json
 
 fizzbuzz_interfaces__rosidl_generator_type_description: CMakeFiles/fizzbuzz_interfaces__rosidl_generator_type_description
 fizzbuzz_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/fizzbuzz_interfaces/msg/FizzBuzz.json
@@ -88,6 +88,6 @@ CMakeFiles/fizzbuzz_interfaces__rosidl_generator_type_description.dir/clean:
 .PHONY : CMakeFiles/fizzbuzz_interfaces__rosidl_generator_type_description.dir/clean
 
 CMakeFiles/fizzbuzz_interfaces__rosidl_generator_type_description.dir/depend:
-	cd /home/pranav/ros2_ws/build/fizzbuzz_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pranav/ros2_ws/src/fizzbuzz_interfaces /home/pranav/ros2_ws/src/fizzbuzz_interfaces /home/pranav/ros2_ws/build/fizzbuzz_interfaces /home/pranav/ros2_ws/build/fizzbuzz_interfaces /home/pranav/ros2_ws/build/fizzbuzz_interfaces/CMakeFiles/fizzbuzz_interfaces__rosidl_generator_type_description.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/firefox/Ros_ws-BWSI/src/fizzbuzz_interfaces /home/firefox/Ros_ws-BWSI/src/fizzbuzz_interfaces /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/CMakeFiles/fizzbuzz_interfaces__rosidl_generator_type_description.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/fizzbuzz_interfaces__rosidl_generator_type_description.dir/depend
 

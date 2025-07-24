@@ -1,62 +1,34 @@
 CMakeFiles/fizzbuzz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fizzbuzz_interfaces/msg/_fizz_buzz_s.c.o: \
- /home/pranav/ros2_ws/build/fizzbuzz_interfaces/rosidl_generator_py/fizzbuzz_interfaces/msg/_fizz_buzz_s.c \
- /usr/include/stdc-predef.h \
- /home/pranav/miniconda3/include/python3.13/Python.h \
- /home/pranav/miniconda3/include/python3.13/patchlevel.h \
- /home/pranav/miniconda3/include/python3.13/pyconfig.h \
- /home/pranav/miniconda3/include/python3.13/pymacconfig.h \
- /usr/include/assert.h /usr/include/features.h \
- /usr/include/features-time64.h \
+ /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/rosidl_generator_py/fizzbuzz_interfaces/msg/_fizz_buzz_s.c \
+ /usr/include/stdc-predef.h /usr/include/python3.12/Python.h \
+ /usr/include/python3.12/patchlevel.h /usr/include/python3.12/pyconfig.h \
+ /usr/include/aarch64-linux-gnu/python3.12/pyconfig.h \
+ /usr/include/python3.12/pymacconfig.h /usr/include/stdlib.h \
+ /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
  /usr/include/aarch64-linux-gnu/bits/timesize.h \
  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
  /usr/include/aarch64-linux-gnu/bits/long-double.h \
  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
- /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h /usr/include/inttypes.h \
- /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
- /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
- /usr/include/aarch64-linux-gnu/bits/types.h \
- /usr/include/aarch64-linux-gnu/bits/typesizes.h \
- /usr/include/aarch64-linux-gnu/bits/time64.h \
- /usr/include/aarch64-linux-gnu/bits/wchar.h \
- /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
- /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
- /usr/lib/gcc/aarch64-linux-gnu/13/include/limits.h \
- /usr/lib/gcc/aarch64-linux-gnu/13/include/syslimits.h \
- /usr/include/limits.h /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
- /usr/include/aarch64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
- /usr/include/aarch64-linux-gnu/bits/xopen_lim.h \
- /usr/include/aarch64-linux-gnu/bits/uio_lim.h /usr/include/math.h \
- /usr/include/aarch64-linux-gnu/bits/math-vector.h \
- /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+ /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
+ /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+ /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
  /usr/include/aarch64-linux-gnu/bits/floatn.h \
  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
- /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
- /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
- /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
- /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
- /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
- /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
- /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
- /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h /usr/include/wchar.h \
- /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
- /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
- /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
- /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
- /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
- /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/aarch64-linux-gnu/sys/types.h \
+ /usr/include/aarch64-linux-gnu/bits/types.h \
+ /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+ /usr/include/aarch64-linux-gnu/bits/time64.h \
  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
- /usr/include/endian.h /usr/include/aarch64-linux-gnu/bits/endian.h \
+ /usr/include/aarch64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/aarch64-linux-gnu/bits/endian.h \
  /usr/include/aarch64-linux-gnu/bits/endianness.h \
  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
@@ -71,149 +43,59 @@ CMakeFiles/fizzbuzz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fizz
  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
- /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h /usr/include/errno.h \
+ /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+ /usr/include/alloca.h /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/stdio.h /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /usr/include/aarch64-linux-gnu/bits/stdio_lim.h /usr/include/errno.h \
  /usr/include/aarch64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/aarch64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/aarch64-linux-gnu/bits/types/error_t.h /usr/include/stdio.h \
- /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
- /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
- /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
- /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
- /usr/include/aarch64-linux-gnu/bits/stdio_lim.h /usr/include/stdlib.h \
- /usr/include/aarch64-linux-gnu/bits/waitflags.h \
- /usr/include/aarch64-linux-gnu/bits/waitstatus.h /usr/include/alloca.h \
- /usr/include/aarch64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
- /usr/include/strings.h /usr/include/ctype.h /usr/include/unistd.h \
+ /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
+ /usr/include/string.h /usr/include/strings.h /usr/include/unistd.h \
  /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
  /usr/include/aarch64-linux-gnu/bits/environments.h \
  /usr/include/aarch64-linux-gnu/bits/confname.h \
  /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h \
- /home/pranav/miniconda3/include/python3.13/pyport.h \
- /home/pranav/miniconda3/include/python3.13/exports.h \
- /home/pranav/miniconda3/include/python3.13/pymacro.h \
- /home/pranav/miniconda3/include/python3.13/pymath.h \
- /home/pranav/miniconda3/include/python3.13/pymem.h \
- /home/pranav/miniconda3/include/python3.13/cpython/pymem.h \
- /home/pranav/miniconda3/include/python3.13/pytypedefs.h \
- /home/pranav/miniconda3/include/python3.13/pybuffer.h \
- /home/pranav/miniconda3/include/python3.13/pystats.h \
- /home/pranav/miniconda3/include/python3.13/pyatomic.h \
- /home/pranav/miniconda3/include/python3.13/cpython/pyatomic.h \
- /home/pranav/miniconda3/include/python3.13/cpython/pyatomic_gcc.h \
- /home/pranav/miniconda3/include/python3.13/lock.h \
- /home/pranav/miniconda3/include/python3.13/cpython/lock.h \
- /home/pranav/miniconda3/include/python3.13/object.h \
- /home/pranav/miniconda3/include/python3.13/cpython/object.h \
- /home/pranav/miniconda3/include/python3.13/objimpl.h \
- /home/pranav/miniconda3/include/python3.13/cpython/objimpl.h \
- /home/pranav/miniconda3/include/python3.13/typeslots.h \
- /home/pranav/miniconda3/include/python3.13/pyhash.h \
- /home/pranav/miniconda3/include/python3.13/cpython/pyhash.h \
- /home/pranav/miniconda3/include/python3.13/cpython/pydebug.h \
- /home/pranav/miniconda3/include/python3.13/bytearrayobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/bytearrayobject.h \
- /home/pranav/miniconda3/include/python3.13/bytesobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/bytesobject.h \
- /home/pranav/miniconda3/include/python3.13/unicodeobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/unicodeobject.h \
- /home/pranav/miniconda3/include/python3.13/pyerrors.h \
- /home/pranav/miniconda3/include/python3.13/cpython/pyerrors.h \
- /home/pranav/miniconda3/include/python3.13/longobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/longobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/longintrepr.h \
- /home/pranav/miniconda3/include/python3.13/boolobject.h \
- /home/pranav/miniconda3/include/python3.13/floatobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/floatobject.h \
- /home/pranav/miniconda3/include/python3.13/complexobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/complexobject.h \
- /home/pranav/miniconda3/include/python3.13/rangeobject.h \
- /home/pranav/miniconda3/include/python3.13/memoryobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/memoryobject.h \
- /home/pranav/miniconda3/include/python3.13/tupleobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/tupleobject.h \
- /home/pranav/miniconda3/include/python3.13/listobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/listobject.h \
- /home/pranav/miniconda3/include/python3.13/dictobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/dictobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/odictobject.h \
- /home/pranav/miniconda3/include/python3.13/enumobject.h \
- /home/pranav/miniconda3/include/python3.13/setobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/setobject.h \
- /home/pranav/miniconda3/include/python3.13/methodobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/methodobject.h \
- /home/pranav/miniconda3/include/python3.13/moduleobject.h \
- /home/pranav/miniconda3/include/python3.13/monitoring.h \
- /home/pranav/miniconda3/include/python3.13/cpython/monitoring.h \
- /home/pranav/miniconda3/include/python3.13/cpython/funcobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/classobject.h \
- /home/pranav/miniconda3/include/python3.13/fileobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/fileobject.h \
- /home/pranav/miniconda3/include/python3.13/pycapsule.h \
- /home/pranav/miniconda3/include/python3.13/cpython/code.h \
- /home/pranav/miniconda3/include/python3.13/pyframe.h \
- /home/pranav/miniconda3/include/python3.13/cpython/pyframe.h \
- /home/pranav/miniconda3/include/python3.13/traceback.h \
- /home/pranav/miniconda3/include/python3.13/cpython/traceback.h \
- /home/pranav/miniconda3/include/python3.13/sliceobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/cellobject.h \
- /home/pranav/miniconda3/include/python3.13/iterobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/initconfig.h \
- /home/pranav/miniconda3/include/python3.13/pystate.h \
- /home/pranav/miniconda3/include/python3.13/cpython/pystate.h \
- /home/pranav/miniconda3/include/python3.13/cpython/genobject.h \
- /home/pranav/miniconda3/include/python3.13/descrobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/descrobject.h \
- /home/pranav/miniconda3/include/python3.13/genericaliasobject.h \
- /home/pranav/miniconda3/include/python3.13/warnings.h \
- /home/pranav/miniconda3/include/python3.13/cpython/warnings.h \
- /home/pranav/miniconda3/include/python3.13/weakrefobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/weakrefobject.h \
- /home/pranav/miniconda3/include/python3.13/structseq.h \
- /home/pranav/miniconda3/include/python3.13/cpython/picklebufobject.h \
- /home/pranav/miniconda3/include/python3.13/cpython/pytime.h \
- /home/pranav/miniconda3/include/python3.13/codecs.h \
- /home/pranav/miniconda3/include/python3.13/pythread.h \
- /home/pranav/miniconda3/include/python3.13/cpython/pythread.h \
- /usr/include/pthread.h /usr/include/sched.h \
- /usr/include/aarch64-linux-gnu/bits/sched.h \
- /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
- /usr/include/aarch64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
+ /usr/include/linux/close_range.h /usr/include/assert.h \
+ /usr/include/wchar.h /usr/include/aarch64-linux-gnu/bits/wchar.h \
+ /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+ /usr/include/python3.12/pyport.h /usr/include/inttypes.h \
+ /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
+ /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
+ /usr/lib/gcc/aarch64-linux-gnu/13/include/limits.h \
+ /usr/lib/gcc/aarch64-linux-gnu/13/include/syslimits.h \
+ /usr/include/limits.h /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/aarch64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/aarch64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/aarch64-linux-gnu/bits/uio_lim.h /usr/include/math.h \
+ /usr/include/aarch64-linux-gnu/bits/math-vector.h \
+ /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
+ /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
+ /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
+ /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
+ /usr/include/aarch64-linux-gnu/sys/time.h /usr/include/time.h \
  /usr/include/aarch64-linux-gnu/bits/time.h \
  /usr/include/aarch64-linux-gnu/bits/timex.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
- /usr/include/aarch64-linux-gnu/bits/setjmp.h \
- /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
- /home/pranav/miniconda3/include/python3.13/cpython/context.h \
- /home/pranav/miniconda3/include/python3.13/modsupport.h \
- /home/pranav/miniconda3/include/python3.13/cpython/modsupport.h \
- /home/pranav/miniconda3/include/python3.13/compile.h \
- /home/pranav/miniconda3/include/python3.13/cpython/compile.h \
- /home/pranav/miniconda3/include/python3.13/pythonrun.h \
- /home/pranav/miniconda3/include/python3.13/cpython/pythonrun.h \
- /home/pranav/miniconda3/include/python3.13/pylifecycle.h \
- /home/pranav/miniconda3/include/python3.13/cpython/pylifecycle.h \
- /home/pranav/miniconda3/include/python3.13/ceval.h \
- /home/pranav/miniconda3/include/python3.13/cpython/ceval.h \
- /home/pranav/miniconda3/include/python3.13/sysmodule.h \
- /home/pranav/miniconda3/include/python3.13/cpython/sysmodule.h \
- /home/pranav/miniconda3/include/python3.13/osmodule.h \
- /home/pranav/miniconda3/include/python3.13/intrcheck.h \
- /home/pranav/miniconda3/include/python3.13/import.h \
- /home/pranav/miniconda3/include/python3.13/cpython/import.h \
- /home/pranav/miniconda3/include/python3.13/abstract.h \
- /home/pranav/miniconda3/include/python3.13/cpython/abstract.h \
- /home/pranav/miniconda3/include/python3.13/bltinmodule.h \
- /home/pranav/miniconda3/include/python3.13/critical_section.h \
- /home/pranav/miniconda3/include/python3.13/cpython/critical_section.h \
- /home/pranav/miniconda3/include/python3.13/cpython/pyctype.h \
- /home/pranav/miniconda3/include/python3.13/pystrtod.h \
- /home/pranav/miniconda3/include/python3.13/pystrcmp.h \
- /home/pranav/miniconda3/include/python3.13/fileutils.h \
  /usr/include/aarch64-linux-gnu/sys/stat.h \
  /usr/include/aarch64-linux-gnu/bits/stat.h \
  /usr/include/aarch64-linux-gnu/bits/struct_stat.h \
@@ -228,30 +110,120 @@ CMakeFiles/fizzbuzz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fizz
  /usr/include/aarch64-linux-gnu/bits/statx-generic.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_statx_timestamp.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_statx.h \
- /home/pranav/miniconda3/include/python3.13/cpython/fileutils.h \
- /home/pranav/miniconda3/include/python3.13/cpython/pyfpe.h \
- /home/pranav/miniconda3/include/python3.13/cpython/tracemalloc.h \
+ /usr/include/python3.12/exports.h /usr/include/python3.12/pymacro.h \
+ /usr/include/python3.12/pymath.h /usr/include/python3.12/pymem.h \
+ /usr/include/python3.12/cpython/pymem.h \
+ /usr/include/python3.12/pytypedefs.h /usr/include/python3.12/pybuffer.h \
+ /usr/include/python3.12/object.h /usr/include/python3.12/pystats.h \
+ /usr/include/python3.12/cpython/object.h \
+ /usr/include/python3.12/objimpl.h \
+ /usr/include/python3.12/cpython/objimpl.h \
+ /usr/include/python3.12/typeslots.h /usr/include/python3.12/pyhash.h \
+ /usr/include/python3.12/cpython/pydebug.h \
+ /usr/include/python3.12/bytearrayobject.h \
+ /usr/include/python3.12/cpython/bytearrayobject.h \
+ /usr/include/python3.12/bytesobject.h \
+ /usr/include/python3.12/cpython/bytesobject.h \
+ /usr/include/python3.12/unicodeobject.h /usr/include/ctype.h \
+ /usr/include/python3.12/cpython/unicodeobject.h \
+ /usr/include/python3.12/cpython/initconfig.h \
+ /usr/include/python3.12/pystate.h \
+ /usr/include/python3.12/cpython/pystate.h \
+ /usr/include/python3.12/pyerrors.h \
+ /usr/include/python3.12/cpython/pyerrors.h \
+ /usr/include/python3.12/longobject.h \
+ /usr/include/python3.12/cpython/longobject.h \
+ /usr/include/python3.12/cpython/longintrepr.h \
+ /usr/include/python3.12/boolobject.h \
+ /usr/include/python3.12/floatobject.h \
+ /usr/include/python3.12/cpython/floatobject.h \
+ /usr/include/python3.12/complexobject.h \
+ /usr/include/python3.12/cpython/complexobject.h \
+ /usr/include/python3.12/rangeobject.h \
+ /usr/include/python3.12/memoryobject.h \
+ /usr/include/python3.12/cpython/memoryobject.h \
+ /usr/include/python3.12/tupleobject.h \
+ /usr/include/python3.12/cpython/tupleobject.h \
+ /usr/include/python3.12/listobject.h \
+ /usr/include/python3.12/cpython/listobject.h \
+ /usr/include/python3.12/dictobject.h \
+ /usr/include/python3.12/cpython/dictobject.h \
+ /usr/include/python3.12/cpython/odictobject.h \
+ /usr/include/python3.12/enumobject.h /usr/include/python3.12/setobject.h \
+ /usr/include/python3.12/cpython/setobject.h \
+ /usr/include/python3.12/methodobject.h \
+ /usr/include/python3.12/cpython/methodobject.h \
+ /usr/include/python3.12/moduleobject.h \
+ /usr/include/python3.12/cpython/funcobject.h \
+ /usr/include/python3.12/cpython/classobject.h \
+ /usr/include/python3.12/fileobject.h \
+ /usr/include/python3.12/cpython/fileobject.h \
+ /usr/include/python3.12/pycapsule.h \
+ /usr/include/python3.12/cpython/code.h /usr/include/python3.12/pyframe.h \
+ /usr/include/python3.12/cpython/pyframe.h \
+ /usr/include/python3.12/traceback.h \
+ /usr/include/python3.12/cpython/traceback.h \
+ /usr/include/python3.12/sliceobject.h \
+ /usr/include/python3.12/cpython/cellobject.h \
+ /usr/include/python3.12/iterobject.h \
+ /usr/include/python3.12/cpython/genobject.h \
+ /usr/include/python3.12/descrobject.h \
+ /usr/include/python3.12/cpython/descrobject.h \
+ /usr/include/python3.12/genericaliasobject.h \
+ /usr/include/python3.12/warnings.h \
+ /usr/include/python3.12/cpython/warnings.h \
+ /usr/include/python3.12/weakrefobject.h \
+ /usr/include/python3.12/cpython/weakrefobject.h \
+ /usr/include/python3.12/structseq.h \
+ /usr/include/python3.12/cpython/picklebufobject.h \
+ /usr/include/python3.12/cpython/pytime.h \
+ /usr/include/python3.12/codecs.h /usr/include/python3.12/pythread.h \
+ /usr/include/python3.12/cpython/pythread.h /usr/include/pthread.h \
+ /usr/include/sched.h /usr/include/aarch64-linux-gnu/bits/sched.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+ /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
+ /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/python3.12/cpython/context.h \
+ /usr/include/python3.12/modsupport.h \
+ /usr/include/python3.12/cpython/modsupport.h \
+ /usr/include/python3.12/compile.h \
+ /usr/include/python3.12/cpython/compile.h \
+ /usr/include/python3.12/pythonrun.h \
+ /usr/include/python3.12/cpython/pythonrun.h \
+ /usr/include/python3.12/pylifecycle.h \
+ /usr/include/python3.12/cpython/pylifecycle.h \
+ /usr/include/python3.12/ceval.h /usr/include/python3.12/cpython/ceval.h \
+ /usr/include/python3.12/sysmodule.h \
+ /usr/include/python3.12/cpython/sysmodule.h \
+ /usr/include/python3.12/osmodule.h /usr/include/python3.12/intrcheck.h \
+ /usr/include/python3.12/import.h \
+ /usr/include/python3.12/cpython/import.h \
+ /usr/include/python3.12/abstract.h \
+ /usr/include/python3.12/cpython/abstract.h \
+ /usr/include/python3.12/bltinmodule.h \
+ /usr/include/python3.12/cpython/pyctype.h \
+ /usr/include/python3.12/pystrtod.h /usr/include/python3.12/pystrcmp.h \
+ /usr/include/python3.12/fileutils.h \
+ /usr/include/python3.12/cpython/fileutils.h \
+ /usr/include/python3.12/cpython/pyfpe.h \
+ /usr/include/python3.12/tracemalloc.h \
  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdbool.h \
- /home/pranav/miniconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
- /home/pranav/miniconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
- /home/pranav/miniconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_common.h \
- /home/pranav/miniconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/numpyconfig.h \
- /home/pranav/miniconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
- /usr/include/complex.h /usr/include/aarch64-linux-gnu/bits/mathdef.h \
- /usr/include/aarch64-linux-gnu/bits/cmathcalls.h \
- /home/pranav/miniconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_endian.h \
- /home/pranav/miniconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_cpu.h \
- /home/pranav/miniconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/utils.h \
- /home/pranav/miniconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
- /home/pranav/miniconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/dtype_api.h \
- /home/pranav/miniconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
- /home/pranav/miniconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
- /home/pranav/miniconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarrayobject.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarraytypes.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_common.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/numpyconfig.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/_numpyconfig.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_endian.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_cpu.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/utils.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/__multiarray_api.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/pranav/ros2_ws/build/fizzbuzz_interfaces/rosidl_generator_c/fizzbuzz_interfaces/msg/detail/fizz_buzz__struct.h \
+ /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/rosidl_generator_c/fizzbuzz_interfaces/msg/detail/fizz_buzz__struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/pranav/ros2_ws/build/fizzbuzz_interfaces/rosidl_generator_c/fizzbuzz_interfaces/msg/detail/fizz_buzz__functions.h \
+ /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/rosidl_generator_c/fizzbuzz_interfaces/msg/detail/fizz_buzz__functions.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
@@ -268,5 +240,5 @@ CMakeFiles/fizzbuzz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/fizz
  /opt/ros/jazzy/include/rcutils/rcutils/sha256.h \
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /home/pranav/ros2_ws/build/fizzbuzz_interfaces/rosidl_generator_c/fizzbuzz_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/firefox/Ros_ws-BWSI/build/fizzbuzz_interfaces/rosidl_generator_c/fizzbuzz_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h

@@ -1,0 +1,24 @@
+[3.851s] Invoking command in '/home/firefox/Ros_ws-BWSI/src/drone': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/firefox/Ros_ws-BWSI/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone build --build-base /home/firefox/Ros_ws-BWSI/build/drone/build install --record /home/firefox/Ros_ws-BWSI/build/drone/install.log --single-version-externally-managed install_data
+[4.485s] running egg_info
+[4.537s] writing ../../build/drone/drone.egg-info/PKG-INFO
+[4.538s] writing dependency_links to ../../build/drone/drone.egg-info/dependency_links.txt
+[4.548s] writing entry points to ../../build/drone/drone.egg-info/entry_points.txt
+[4.560s] writing requirements to ../../build/drone/drone.egg-info/requires.txt
+[4.568s] writing top-level names to ../../build/drone/drone.egg-info/top_level.txt
+[4.663s] reading manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+[4.663s] writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+[4.664s] running build
+[4.664s] running build_py
+[4.665s] copying drone/pathfinder.py -> /home/firefox/Ros_ws-BWSI/build/drone/build/lib/drone
+[4.669s] running install
+[4.685s] running install_lib
+[4.731s] copying /home/firefox/Ros_ws-BWSI/build/drone/build/lib/drone/pathfinder.py -> /home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages/drone
+[4.735s] byte-compiling /home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages/drone/pathfinder.py to pathfinder.cpython-312.pyc
+[4.736s] running install_data
+[4.736s] running install_egg_info
+[4.773s] removing '/home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages/drone-0.0.0-py3.12.egg-info' (and everything under it)
+[4.774s] Copying ../../build/drone/drone.egg-info to /home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages/drone-0.0.0-py3.12.egg-info
+[4.777s] running install_scripts
+[5.135s] Installing pathfinder script to /home/firefox/Ros_ws-BWSI/install/drone/lib/drone
+[5.152s] writing list of installed files to '/home/firefox/Ros_ws-BWSI/build/drone/install.log'
+[5.270s] Invoked command in '/home/firefox/Ros_ws-BWSI/src/drone' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/firefox/Ros_ws-BWSI/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firefox/Ros_ws-BWSI/install/drone/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone build --build-base /home/firefox/Ros_ws-BWSI/build/drone/build install --record /home/firefox/Ros_ws-BWSI/build/drone/install.log --single-version-externally-managed install_data
