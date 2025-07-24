@@ -18,7 +18,6 @@ class pathfinder(Node):
         img = CvBridge.imgmsg_to_cv2(img, "bgr8")
         img = cv2.imread(img, cv2.IMREAD_GRAYSCALE)
         kernel = np.ones((2, 2), np.uint8)
-
         _, img_thresheld = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY)
         img_thresheld = cv2.erode(img_thresheld, kernel, iterations=1)
         img_thresheld = cv2.dilate(img_thresheld, kernel, iterations=1)
