@@ -1,0 +1,22 @@
+[0.820s] Invoking command in '/home/pranav/ros2_ws/src/pet': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/pet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/pet/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pet build --build-base /home/pranav/ros2_ws/build/pet/build install --record /home/pranav/ros2_ws/build/pet/install.log --single-version-externally-managed install_data
+[0.961s] running egg_info
+[0.971s] writing ../../build/pet/pet.egg-info/PKG-INFO
+[0.971s] writing dependency_links to ../../build/pet/pet.egg-info/dependency_links.txt
+[0.971s] writing entry points to ../../build/pet/pet.egg-info/entry_points.txt
+[0.974s] writing requirements to ../../build/pet/pet.egg-info/requires.txt
+[0.974s] writing top-level names to ../../build/pet/pet.egg-info/top_level.txt
+[0.992s] reading manifest file '../../build/pet/pet.egg-info/SOURCES.txt'
+[0.993s] writing manifest file '../../build/pet/pet.egg-info/SOURCES.txt'
+[0.993s] running build
+[0.993s] running build_py
+[0.993s] running install
+[0.997s] running install_lib
+[1.012s] running install_data
+[1.012s] running install_egg_info
+[1.023s] removing '/home/pranav/ros2_ws/install/pet/lib/python3.12/site-packages/pet-0.0.0-py3.12.egg-info' (and everything under it)
+[1.023s] Copying ../../build/pet/pet.egg-info to /home/pranav/ros2_ws/install/pet/lib/python3.12/site-packages/pet-0.0.0-py3.12.egg-info
+[1.027s] running install_scripts
+[1.089s] Installing pose_subscriber script to /home/pranav/ros2_ws/install/pet/lib/pet
+[1.089s] Installing turtle_controller script to /home/pranav/ros2_ws/install/pet/lib/pet
+[1.090s] writing list of installed files to '/home/pranav/ros2_ws/build/pet/install.log'
+[1.113s] Invoked command in '/home/pranav/ros2_ws/src/pet' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/pet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/pet/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pet build --build-base /home/pranav/ros2_ws/build/pet/build install --record /home/pranav/ros2_ws/build/pet/install.log --single-version-externally-managed install_data
