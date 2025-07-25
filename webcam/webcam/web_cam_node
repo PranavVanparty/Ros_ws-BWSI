@@ -1,0 +1,36 @@
+import rclpy
+from rclpy.node import Node
+import cv2
+from sensor_msgs.msg import Image
+from cv_bridge import CvBridge
+
+class WebCamNode(Node):
+    def __init__(self):
+        super().__init__("web_cam_node")
+        self.video = cv2.VideoCapture("udp://@:1234")
+        self.cam_pub = self.create_publisher(Image, "web_camera/image_raw", 10)
+        self.timer = self.create_timer(0.1, self.timer_callback)
+        self.bridge = CvBridge()
+
+        self.get_logger().info("WebCam Node initialized")
+
+    def timer_callback(self):
+        ret, frame = self.video.read()
+        if ret:
+            img_msg = self.bridge.cv2_to_imgmsg(frame, "bgr8")
+            self.cam_pub.publish(img_msg)
+        else:
+            self.get_logger().error("Failed to capture image from webcam")
+
+
+def main():
+    rclpy.init()
+    node = WebCamNode()
+    rclpy.spin(node)
+    node.destroy_node()
+    rclpy.shutdown()
+    cv2.VideoCapture.release()
+
+
+if __name__ == '__main__':
+    main()
