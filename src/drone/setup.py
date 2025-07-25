@@ -21,7 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             "pathfinder = drone.pathfinder:main",
-            "april_tags = drone.AprilTags:main",
+            "apriltags = drone.AprilTags:main",
         ],
     },
 )

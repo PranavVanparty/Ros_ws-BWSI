@@ -13,10 +13,9 @@ class AprilTags(Node):
         self.at_image_pub = self.create_publisher(Image, "april_tags", 10)
         self.bridge = CvBridge()
         
-        # Create ArUco dictionary and detector parameters
-        self.aruco_dict = aruco.getPredefinedDictionary(aruco.DICT_5X5_100)
-        self.aruco_params = aruco.DetectorParameters()
-        self.aprilTag_detector = aruco.ArucoDetector(self.aruco_dict, self.aruco_params)
+        # Create ArUco dictionary and detector parameters (compatible with older OpenCV)
+        self.aruco_dict = aruco.Dictionary_get(aruco.DICT_5X5_100)
+        self.aruco_params = aruco.DetectorParameters_create()
         
         self.get_logger().info("AprilTags Node Initialized")
         
@@ -24,7 +23,7 @@ class AprilTags(Node):
     def camera_callback(self, img: Image):
         try:
             img = self.bridge.imgmsg_to_cv2(img, "bgr8")
-            corners, ids, rejected = self.aprilTag_detector.detectMarkers(img)
+            corners, ids, rejected = aruco.detectMarkers(img, self.aruco_dict, parameters=self.aruco_params)
             if ids is not None: 
                 img = aruco.drawDetectedMarkers(img, corners, ids)
             img_msg = self.bridge.cv2_to_imgmsg(img, "bgr8")
@@ -38,7 +37,7 @@ class AprilTags(Node):
             if img is None:
                 self.get_logger().error("Could not load test image")
                 return
-            corners, ids, rejected = self.aprilTag_detector.detectMarkers(img)
+            corners, ids, rejected = aruco.detectMarkers(img, self.aruco_dict, parameters=self.aruco_params)
             if ids is not None:
                 img = aruco.drawDetectedMarkers(img, corners, ids)
                 self.get_logger().info(f"Detected {len(ids)} AprilTags")
