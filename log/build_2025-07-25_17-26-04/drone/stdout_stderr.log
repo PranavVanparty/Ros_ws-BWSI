@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/drone/drone.egg-info/PKG-INFO
+writing dependency_links to ../../build/drone/drone.egg-info/dependency_links.txt
+writing entry points to ../../build/drone/drone.egg-info/entry_points.txt
+writing requirements to ../../build/drone/drone.egg-info/requires.txt
+writing top-level names to ../../build/drone/drone.egg-info/top_level.txt
+reading manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+running build
+running build_py
+copying drone/AprilTags.py -> /home/pranav/ros2_ws/build/drone/build/lib/drone
+running install
+running install_lib
+copying /home/pranav/ros2_ws/build/drone/build/lib/drone/AprilTags.py -> /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone
+byte-compiling /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone/AprilTags.py to AprilTags.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/drone/drone.egg-info to /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone-0.0.0-py3.12.egg-info
+running install_scripts
+Installing april_tags script to /home/pranav/ros2_ws/install/drone/lib/drone
+Installing pathfinder script to /home/pranav/ros2_ws/install/drone/lib/drone
+writing list of installed files to '/home/pranav/ros2_ws/build/drone/install.log'

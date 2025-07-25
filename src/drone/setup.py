@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "pathfinder = drone.pathfinder:main"
+            "pathfinder = drone.pathfinder:main",
             "april_tags = drone.AprilTags:main",
         ],
     },
