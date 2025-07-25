@@ -9,30 +9,62 @@ import cv2.aruco as aruco
 class AprilTags(Node):
     def __init__(self):
         super().__init__("april_tags")
-        self.camera_sub = self.create_subscription(Image, "/camera_feed/camera/image_raw", self.camera_callback , 10)
+        # self.camera_sub = self.create_subscription(Image, "/camera_feed/camera/image_raw", self.camera_callback , 10)
         self.at_image_pub = self.create_publisher(Image, "april_tags", 10)
         self.bridge = CvBridge()
-        self.aprilTag_detector = aruco.ArucoDetector()
-        self.aprilTag_detector.setDictionary(self.aprilTag_detector.DICT_5x5_100)
+        
+        # Create ArUco dictionary and detector parameters
+        self.aruco_dict = aruco.getPredefinedDictionary(aruco.DICT_5X5_100)
+        self.aruco_params = aruco.DetectorParameters()
+        self.aprilTag_detector = aruco.ArucoDetector(self.aruco_dict, self.aruco_params)
+        
         self.get_logger().info("AprilTags Node Initialized")
         
 
     def camera_callback(self, img: Image):
-        img = self.bridge.imgmsg_to_cv2(img, "bgr8")
-        corners, ids, rejects = self.aprilTag_detector.detectMarkers(img, parameters=None)
-        if ids is not None: 
-            img = aruco.drawDetectedMarkers(img, corners, ids)
+        try:
+            img = self.bridge.imgmsg_to_cv2(img, "bgr8")
+            corners, ids, rejected = self.aprilTag_detector.detectMarkers(img)
+            if ids is not None: 
+                img = aruco.drawDetectedMarkers(img, corners, ids)
+            img_msg = self.bridge.cv2_to_imgmsg(img, "bgr8")
+            self.at_image_pub.publish(img_msg)
+        except Exception as e:
+            self.get_logger().error(f"Error in camera callback: {str(e)}")
     
     def april_tag_test(self):
-        img = cv2.imread("../apriltags/img/at1.jpeg")
+        try:
+            img = cv2.imread("/home/pranav/ros2_ws/src/drone/drone/apriltags/at1.jpeg")
+            if img is None:
+                self.get_logger().error("Could not load test image")
+                return
+            corners, ids, rejected = self.aprilTag_detector.detectMarkers(img)
+            if ids is not None:
+                img = aruco.drawDetectedMarkers(img, corners, ids)
+                self.get_logger().info(f"Detected {len(ids)} AprilTags")
+            else:
+                self.get_logger().info("No AprilTags detected in test image")
+            img_msg = self.bridge.cv2_to_imgmsg(img, "bgr8")
+            self.at_image_pub.publish(img_msg)
+        except Exception as e:
+            self.get_logger().error(f"Error in april_tag_test: {str(e)}")
+            
     
     
 def main():
     rclpy.init()
     april_tags_node = AprilTags()
-    rclpy.spin(april_tags_node)
-    april_tags_node.destroy_node()
-    rclpy.shutdown()
+    
+    # Test the AprilTag detection with a test image
+    april_tags_node.april_tag_test()
+    
+    try:
+        rclpy.spin(april_tags_node)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        april_tags_node.destroy_node()
+        rclpy.shutdown()
         
 if __name__ == "__main__":
     main()

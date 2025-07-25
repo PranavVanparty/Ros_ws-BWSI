@@ -1,0 +1,24 @@
+[0.015s] Invoking command in '/home/pranav/ros2_ws/build/fizzbuzz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ros2_ws/install/webcam:/home/pranav/ros2_ws/install/turtle_tag_game:/home/pranav/ros2_ws/install/pet:/home/pranav/ros2_ws/install/fizzbuzz:/home/pranav/ros2_ws/install/drone:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pranav/ros2_ws/build/fizzbuzz_interfaces -- -j4 -l4
+[0.435s] [  2%] Built target fizzbuzz_interfaces__rosidl_generator_type_description
+[0.436s] [  2%] Built target ament_cmake_python_copy_fizzbuzz_interfaces
+[0.436s] [  5%] Built target fizzbuzz_interfaces__cpp
+[0.436s] running egg_info
+[0.436s] writing fizzbuzz_interfaces.egg-info/PKG-INFO
+[0.436s] writing dependency_links to fizzbuzz_interfaces.egg-info/dependency_links.txt
+[0.437s] writing top-level names to fizzbuzz_interfaces.egg-info/top_level.txt
+[0.437s] reading manifest file 'fizzbuzz_interfaces.egg-info/SOURCES.txt'
+[0.437s] writing manifest file 'fizzbuzz_interfaces.egg-info/SOURCES.txt'
+[0.437s] [  5%] Built target ament_cmake_python_build_fizzbuzz_interfaces_egg
+[0.453s] [ 20%] Built target fizzbuzz_interfaces__rosidl_generator_c
+[0.471s] [ 29%] Built target fizzbuzz_interfaces__rosidl_typesupport_introspection_c
+[0.487s] [ 38%] Built target fizzbuzz_interfaces__rosidl_typesupport_cpp
+[0.514s] [ 47%] Built target fizzbuzz_interfaces__rosidl_typesupport_fastrtps_c
+[0.531s] [ 55%] Built target fizzbuzz_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.549s] [ 64%] Built target fizzbuzz_interfaces__rosidl_typesupport_introspection_cpp
+[0.564s] [ 73%] Built target fizzbuzz_interfaces__rosidl_typesupport_c
+[0.578s] [ 73%] Built target fizzbuzz_interfaces
+[0.589s] [ 76%] Built target fizzbuzz_interfaces__py
+[0.601s] [ 82%] Built target fizzbuzz_interfaces__rosidl_generator_py
+[0.618s] [ 88%] Built target fizzbuzz_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.638s] [ 94%] Built target fizzbuzz_interfaces_s__rosidl_typesupport_c
+[0.655s] [100%] Built target fizzbuzz_interfaces_s__rosidl_typesupport_introspection_c
