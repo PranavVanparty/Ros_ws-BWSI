@@ -15,13 +15,24 @@ class AprilTags(Node):
         self.aprilTag_detector = aruco.ArucoDetector()
         self.aprilTag_detector.setDictionary(self.aprilTag_detector.DICT_5x5_100)
         self.get_logger().info("AprilTags Node Initialized")
+        
 
     def camera_callback(self, img: Image):
         img = self.bridge.imgmsg_to_cv2(img, "bgr8")
         corners, ids, rejects = self.aprilTag_detector.detectMarkers(img, parameters=None)
         if ids is not None: 
             img = aruco.drawDetectedMarkers(img, corners, ids)
-            
-
+    
+    def april_tag_test(self):
+        img = cv2.imread("../apriltags/img/at1.jpeg")
+    
+    
+def main():
+    rclpy.init()
+    april_tags_node = AprilTags()
+    rclpy.spin(april_tags_node)
+    april_tags_node.destroy_node()
+    rclpy.shutdown()
         
-        
+if __name__ == "__main__":
+    main()
