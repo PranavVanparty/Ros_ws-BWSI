@@ -1,0 +1,29 @@
+[3.140s] Invoking command in '/home/pranav/ros2_ws/src/pet': CONDA_PROMPT_MODIFIER=(ros2_jazzy) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/pet/prefix_override:/home/pranav/miniconda3/envs/ros2_jazzy/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/pet/lib/python3.12/site-packages:${PYTHONPATH} /home/pranav/miniconda3/envs/ros2_jazzy/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pet build --build-base /home/pranav/ros2_ws/build/pet/build install --record /home/pranav/ros2_ws/build/pet/install.log --single-version-externally-managed install_data
+[3.611s] /home/pranav/miniconda3/envs/ros2_jazzy/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.611s]   warnings.warn(msg)
+[3.799s] running egg_info
+[3.805s] writing ../../build/pet/pet.egg-info/PKG-INFO
+[3.807s] writing dependency_links to ../../build/pet/pet.egg-info/dependency_links.txt
+[3.807s] writing entry points to ../../build/pet/pet.egg-info/entry_points.txt
+[3.808s] writing requirements to ../../build/pet/pet.egg-info/requires.txt
+[3.809s] writing top-level names to ../../build/pet/pet.egg-info/top_level.txt
+[3.872s] reading manifest file '../../build/pet/pet.egg-info/SOURCES.txt'
+[3.873s] writing manifest file '../../build/pet/pet.egg-info/SOURCES.txt'
+[3.874s] running build
+[3.875s] running build_py
+[3.875s] copying pet/__init__.py -> /home/pranav/ros2_ws/build/pet/build/lib/pet
+[3.876s] copying pet/pose_subscriber.py -> /home/pranav/ros2_ws/build/pet/build/lib/pet
+[3.876s] copying pet/turtle_controller.py -> /home/pranav/ros2_ws/build/pet/build/lib/pet
+[3.879s] running install
+[3.881s] running install_lib
+[3.896s] running install_data
+[3.896s] copying resource/pet -> /home/pranav/ros2_ws/install/pet/share/ament_index/resource_index/packages
+[3.898s] copying package.xml -> /home/pranav/ros2_ws/install/pet/share/pet
+[3.898s] running install_egg_info
+[3.910s] removing '/home/pranav/ros2_ws/install/pet/lib/python3.12/site-packages/pet-0.0.0-py3.12.egg-info' (and everything under it)
+[3.913s] Copying ../../build/pet/pet.egg-info to /home/pranav/ros2_ws/install/pet/lib/python3.12/site-packages/pet-0.0.0-py3.12.egg-info
+[3.921s] running install_scripts
+[4.198s] Installing pose_subscriber script to /home/pranav/ros2_ws/install/pet/lib/pet
+[4.206s] Installing turtle_controller script to /home/pranav/ros2_ws/install/pet/lib/pet
+[4.206s] writing list of installed files to '/home/pranav/ros2_ws/build/pet/install.log'
+[4.397s] Invoked command in '/home/pranav/ros2_ws/src/pet' returned '0': CONDA_PROMPT_MODIFIER=(ros2_jazzy) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/pet/prefix_override:/home/pranav/miniconda3/envs/ros2_jazzy/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/pet/lib/python3.12/site-packages:${PYTHONPATH} /home/pranav/miniconda3/envs/ros2_jazzy/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pet build --build-base /home/pranav/ros2_ws/build/pet/build install --record /home/pranav/ros2_ws/build/pet/install.log --single-version-externally-managed install_data

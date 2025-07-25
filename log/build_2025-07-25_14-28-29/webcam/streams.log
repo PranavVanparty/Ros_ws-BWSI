@@ -1,0 +1,32 @@
+[1.124s] Invoking command in '/home/pranav/ros2_ws/webcam': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/webcam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/webcam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/webcam build --build-base /home/pranav/ros2_ws/build/webcam/build install --record /home/pranav/ros2_ws/build/webcam/install.log --single-version-externally-managed install_data
+[1.372s] running egg_info
+[1.375s] creating ../build/webcam/webcam.egg-info
+[1.392s] writing ../build/webcam/webcam.egg-info/PKG-INFO
+[1.393s] writing dependency_links to ../build/webcam/webcam.egg-info/dependency_links.txt
+[1.393s] writing requirements to ../build/webcam/webcam.egg-info/requires.txt
+[1.393s] writing top-level names to ../build/webcam/webcam.egg-info/top_level.txt
+[1.393s] writing manifest file '../build/webcam/webcam.egg-info/SOURCES.txt'
+[1.417s] reading manifest file '../build/webcam/webcam.egg-info/SOURCES.txt'
+[1.417s] writing manifest file '../build/webcam/webcam.egg-info/SOURCES.txt'
+[1.418s] running build
+[1.419s] running build_py
+[1.419s] creating /home/pranav/ros2_ws/build/webcam/build
+[1.419s] creating /home/pranav/ros2_ws/build/webcam/build/lib
+[1.419s] creating /home/pranav/ros2_ws/build/webcam/build/lib/webcam
+[1.419s] copying webcam/__init__.py -> /home/pranav/ros2_ws/build/webcam/build/lib/webcam
+[1.419s] running install
+[1.425s] running install_lib
+[1.437s] creating /home/pranav/ros2_ws/install/webcam/lib/python3.12/site-packages/webcam
+[1.437s] copying /home/pranav/ros2_ws/build/webcam/build/lib/webcam/__init__.py -> /home/pranav/ros2_ws/install/webcam/lib/python3.12/site-packages/webcam
+[1.438s] byte-compiling /home/pranav/ros2_ws/install/webcam/lib/python3.12/site-packages/webcam/__init__.py to __init__.cpython-312.pyc
+[1.438s] running install_data
+[1.438s] creating /home/pranav/ros2_ws/install/webcam/share/ament_index
+[1.438s] creating /home/pranav/ros2_ws/install/webcam/share/ament_index/resource_index
+[1.438s] creating /home/pranav/ros2_ws/install/webcam/share/ament_index/resource_index/packages
+[1.438s] copying resource/webcam -> /home/pranav/ros2_ws/install/webcam/share/ament_index/resource_index/packages
+[1.438s] copying package.xml -> /home/pranav/ros2_ws/install/webcam/share/webcam
+[1.443s] running install_egg_info
+[1.458s] Copying ../build/webcam/webcam.egg-info to /home/pranav/ros2_ws/install/webcam/lib/python3.12/site-packages/webcam-0.0.0-py3.12.egg-info
+[1.459s] running install_scripts
+[1.552s] writing list of installed files to '/home/pranav/ros2_ws/build/webcam/install.log'
+[1.579s] Invoked command in '/home/pranav/ros2_ws/webcam' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/webcam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/webcam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/webcam build --build-base /home/pranav/ros2_ws/build/webcam/build install --record /home/pranav/ros2_ws/build/webcam/install.log --single-version-externally-managed install_data

@@ -1,0 +1,353 @@
+[0.412s] DEBUG:colcon:Command line arguments: ['/home/pranav/miniconda3/envs/ros2_jazzy/bin/colcon', 'build']
+[0.412s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xfeb3893ae780>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xfeb3893ae810>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xfeb3893ae810>>)
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.509s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pranav/ros2_ws'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extensions ['ignore', 'ignore_ament_install']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extension 'ignore'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extension 'ignore_ament_install'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extensions ['colcon_pkg']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extension 'colcon_pkg'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extensions ['colcon_meta']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extension 'colcon_meta'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extensions ['ros']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extension 'ros'
+[0.593s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone' with type 'ros.ament_python' and name 'drone'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/fizzbuzz) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/fizzbuzz) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/fizzbuzz) by extension 'ignore_ament_install'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/fizzbuzz) by extensions ['colcon_pkg']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/fizzbuzz) by extension 'colcon_pkg'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/fizzbuzz) by extensions ['colcon_meta']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/fizzbuzz) by extension 'colcon_meta'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/fizzbuzz) by extensions ['ros']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/fizzbuzz) by extension 'ros'
+[0.596s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fizzbuzz' with type 'ros.ament_python' and name 'fizzbuzz'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/fizzbuzz_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/fizzbuzz_interfaces) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/fizzbuzz_interfaces) by extension 'ignore_ament_install'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/fizzbuzz_interfaces) by extensions ['colcon_pkg']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/fizzbuzz_interfaces) by extension 'colcon_pkg'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/fizzbuzz_interfaces) by extensions ['colcon_meta']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/fizzbuzz_interfaces) by extension 'colcon_meta'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/fizzbuzz_interfaces) by extensions ['ros']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/fizzbuzz_interfaces) by extension 'ros'
+[0.599s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fizzbuzz_interfaces' with type 'ros.ament_cmake' and name 'fizzbuzz_interfaces'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/pet) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/pet) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/pet) by extension 'ignore_ament_install'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/pet) by extensions ['colcon_pkg']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/pet) by extension 'colcon_pkg'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/pet) by extensions ['colcon_meta']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/pet) by extension 'colcon_meta'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/pet) by extensions ['ros']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/pet) by extension 'ros'
+[0.601s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pet' with type 'ros.ament_python' and name 'pet'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_tag_game) by extensions ['ignore', 'ignore_ament_install']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_tag_game) by extension 'ignore'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_tag_game) by extension 'ignore_ament_install'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_tag_game) by extensions ['colcon_pkg']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_tag_game) by extension 'colcon_pkg'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_tag_game) by extensions ['colcon_meta']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_tag_game) by extension 'colcon_meta'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_tag_game) by extensions ['ros']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_tag_game) by extension 'ros'
+[0.608s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_tag_game' with type 'ros.ament_python' and name 'turtle_tag_game'
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'cmake_args' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'cmake_target' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'cmake_clean_cache' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'cmake_clean_first' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'cmake_force_configure' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'ament_cmake_args' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'catkin_cmake_args' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.646s] DEBUG:colcon.colcon_core.verb:Building package 'drone' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pranav/ros2_ws/build/drone', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pranav/ros2_ws/install/drone', 'merge_install': False, 'path': '/home/pranav/ros2_ws/src/drone', 'symlink_install': False, 'test_result_base': None}
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'fizzbuzz_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'fizzbuzz_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'fizzbuzz_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'fizzbuzz_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'fizzbuzz_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'fizzbuzz_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'fizzbuzz_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'fizzbuzz_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'fizzbuzz_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.647s] DEBUG:colcon.colcon_core.verb:Building package 'fizzbuzz_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pranav/ros2_ws/build/fizzbuzz_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pranav/ros2_ws/install/fizzbuzz_interfaces', 'merge_install': False, 'path': '/home/pranav/ros2_ws/src/fizzbuzz_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'pet' build argument 'cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'pet' build argument 'cmake_target' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'pet' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'pet' build argument 'cmake_clean_cache' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'pet' build argument 'cmake_clean_first' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'pet' build argument 'cmake_force_configure' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'pet' build argument 'ament_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'pet' build argument 'catkin_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'pet' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.647s] DEBUG:colcon.colcon_core.verb:Building package 'pet' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pranav/ros2_ws/build/pet', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pranav/ros2_ws/install/pet', 'merge_install': False, 'path': '/home/pranav/ros2_ws/src/pet', 'symlink_install': False, 'test_result_base': None}
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'turtle_tag_game' build argument 'cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'turtle_tag_game' build argument 'cmake_target' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'turtle_tag_game' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'turtle_tag_game' build argument 'cmake_clean_cache' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'turtle_tag_game' build argument 'cmake_clean_first' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'turtle_tag_game' build argument 'cmake_force_configure' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'turtle_tag_game' build argument 'ament_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'turtle_tag_game' build argument 'catkin_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'turtle_tag_game' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.648s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_tag_game' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pranav/ros2_ws/build/turtle_tag_game', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pranav/ros2_ws/install/turtle_tag_game', 'merge_install': False, 'path': '/home/pranav/ros2_ws/src/turtle_tag_game', 'symlink_install': False, 'test_result_base': None}
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'fizzbuzz' build argument 'cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'fizzbuzz' build argument 'cmake_target' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'fizzbuzz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'fizzbuzz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'fizzbuzz' build argument 'cmake_clean_first' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'fizzbuzz' build argument 'cmake_force_configure' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'fizzbuzz' build argument 'ament_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'fizzbuzz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'fizzbuzz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.648s] DEBUG:colcon.colcon_core.verb:Building package 'fizzbuzz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pranav/ros2_ws/build/fizzbuzz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pranav/ros2_ws/install/fizzbuzz', 'merge_install': False, 'path': '/home/pranav/ros2_ws/src/fizzbuzz', 'symlink_install': False, 'test_result_base': None}
+[0.648s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.649s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.650s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pranav/ros2_ws/src/fizzbuzz_interfaces' with build type 'ament_cmake'
+[0.650s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pranav/ros2_ws/src/fizzbuzz_interfaces'
+[0.657s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.657s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.657s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.676s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pranav/ros2_ws/src/drone' with build type 'ament_python'
+[0.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone', 'ament_prefix_path')
+[0.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/drone/share/drone/hook/ament_prefix_path.ps1'
+[0.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pranav/ros2_ws/install/drone/share/drone/hook/ament_prefix_path.dsv'
+[0.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/drone/share/drone/hook/ament_prefix_path.sh'
+[0.684s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.684s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.687s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pranav/ros2_ws/src/pet' with build type 'ament_python'
+[0.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('pet', 'ament_prefix_path')
+[0.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/pet/share/pet/hook/ament_prefix_path.ps1'
+[0.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pranav/ros2_ws/install/pet/share/pet/hook/ament_prefix_path.dsv'
+[0.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/pet/share/pet/hook/ament_prefix_path.sh'
+[0.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.690s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.694s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pranav/ros2_ws/src/turtle_tag_game' with build type 'ament_python'
+[0.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_tag_game', 'ament_prefix_path')
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/turtle_tag_game/share/turtle_tag_game/hook/ament_prefix_path.ps1'
+[0.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pranav/ros2_ws/install/turtle_tag_game/share/turtle_tag_game/hook/ament_prefix_path.dsv'
+[0.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/turtle_tag_game/share/turtle_tag_game/hook/ament_prefix_path.sh'
+[0.696s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.696s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pranav/ros2_ws/build/fizzbuzz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(ros2_jazzy) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pranav/ros2_ws/build/fizzbuzz_interfaces -- -j4 -l4
+[1.172s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pranav/ros2_ws/src/drone'
+[1.173s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.173s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.521s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pranav/ros2_ws/src/turtle_tag_game'
+[1.522s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.522s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.040s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pranav/ros2_ws/src/pet'
+[2.041s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.041s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pranav/ros2_ws/build/fizzbuzz_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(ros2_jazzy) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pranav/ros2_ws/build/fizzbuzz_interfaces -- -j4 -l4
+[3.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pranav/ros2_ws/build/fizzbuzz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(ros2_jazzy) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pranav/ros2_ws/build/fizzbuzz_interfaces
+[3.643s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fizzbuzz_interfaces)
+[3.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pranav/ros2_ws/build/fizzbuzz_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(ros2_jazzy) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pranav/ros2_ws/build/fizzbuzz_interfaces
+[3.672s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz_interfaces' for CMake module files
+[3.672s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz_interfaces' for CMake config files
+[3.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('fizzbuzz_interfaces', 'cmake_prefix_path')
+[3.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/hook/cmake_prefix_path.ps1'
+[3.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/hook/cmake_prefix_path.dsv'
+[3.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/hook/cmake_prefix_path.sh'
+[3.684s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/lib'
+[3.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('fizzbuzz_interfaces', 'ld_library_path_lib')
+[3.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/hook/ld_library_path_lib.ps1'
+[3.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/hook/ld_library_path_lib.dsv'
+[3.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/hook/ld_library_path_lib.sh'
+[3.694s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/bin'
+[3.694s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/lib/pkgconfig/fizzbuzz_interfaces.pc'
+[3.698s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/lib/python3.12/site-packages'
+[3.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('fizzbuzz_interfaces', 'pythonpath')
+[3.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/hook/pythonpath.ps1'
+[3.719s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/hook/pythonpath.dsv'
+[3.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/hook/pythonpath.sh'
+[3.731s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/bin'
+[3.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/package.ps1'
+[3.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/package.dsv'
+[3.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/package.sh'
+[3.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/package.bash'
+[3.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/package.zsh'
+[3.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/colcon-core/packages/fizzbuzz_interfaces)
+[3.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fizzbuzz_interfaces)
+[3.770s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz_interfaces' for CMake module files
+[3.770s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz_interfaces' for CMake config files
+[3.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('fizzbuzz_interfaces', 'cmake_prefix_path')
+[3.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/hook/cmake_prefix_path.ps1'
+[3.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/hook/cmake_prefix_path.dsv'
+[3.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/hook/cmake_prefix_path.sh'
+[3.782s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/lib'
+[3.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('fizzbuzz_interfaces', 'ld_library_path_lib')
+[3.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/hook/ld_library_path_lib.ps1'
+[3.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/hook/ld_library_path_lib.dsv'
+[3.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/hook/ld_library_path_lib.sh'
+[3.786s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/bin'
+[3.786s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/lib/pkgconfig/fizzbuzz_interfaces.pc'
+[3.786s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/lib/python3.12/site-packages'
+[3.788s] Level 1:colcon.colcon_core.shell:create_environment_hook('fizzbuzz_interfaces', 'pythonpath')
+[3.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/hook/pythonpath.ps1'
+[3.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/hook/pythonpath.dsv'
+[3.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/hook/pythonpath.sh'
+[3.794s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/bin'
+[3.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/package.ps1'
+[3.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/package.dsv'
+[3.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/package.sh'
+[3.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/package.bash'
+[3.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/fizzbuzz_interfaces/package.zsh'
+[3.801s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pranav/ros2_ws/install/fizzbuzz_interfaces/share/colcon-core/packages/fizzbuzz_interfaces)
+[3.802s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pranav/ros2_ws/src/fizzbuzz' with build type 'ament_python'
+[3.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('fizzbuzz', 'ament_prefix_path')
+[3.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/fizzbuzz/share/fizzbuzz/hook/ament_prefix_path.ps1'
+[3.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pranav/ros2_ws/install/fizzbuzz/share/fizzbuzz/hook/ament_prefix_path.dsv'
+[3.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/fizzbuzz/share/fizzbuzz/hook/ament_prefix_path.sh'
+[3.803s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.803s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pranav/ros2_ws/src/turtle_tag_game': CONDA_PROMPT_MODIFIER=(ros2_jazzy) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/turtle_tag_game/prefix_override:/home/pranav/miniconda3/envs/ros2_jazzy/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/turtle_tag_game/lib/python3.12/site-packages:${PYTHONPATH} /home/pranav/miniconda3/envs/ros2_jazzy/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_tag_game build --build-base /home/pranav/ros2_ws/build/turtle_tag_game/build install --record /home/pranav/ros2_ws/build/turtle_tag_game/install.log --single-version-externally-managed install_data
+[3.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pranav/ros2_ws/src/drone': CONDA_PROMPT_MODIFIER=(ros2_jazzy) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/drone/prefix_override:/home/pranav/miniconda3/envs/ros2_jazzy/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages:${PYTHONPATH} /home/pranav/miniconda3/envs/ros2_jazzy/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone build --build-base /home/pranav/ros2_ws/build/drone/build install --record /home/pranav/ros2_ws/build/drone/install.log --single-version-externally-managed install_data
+[3.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pranav/ros2_ws/src/pet': CONDA_PROMPT_MODIFIER=(ros2_jazzy) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/pet/prefix_override:/home/pranav/miniconda3/envs/ros2_jazzy/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/pet/lib/python3.12/site-packages:${PYTHONPATH} /home/pranav/miniconda3/envs/ros2_jazzy/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pet build --build-base /home/pranav/ros2_ws/build/pet/build install --record /home/pranav/ros2_ws/build/pet/install.log --single-version-externally-managed install_data
+[4.346s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pranav/ros2_ws/src/fizzbuzz'
+[4.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.346s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.716s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/drone' for CMake module files
+[4.716s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/drone' for CMake config files
+[4.717s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/drone/lib'
+[4.717s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/drone/bin'
+[4.717s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/drone/lib/pkgconfig/drone.pc'
+[4.717s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages'
+[4.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone', 'pythonpath')
+[4.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/drone/share/drone/hook/pythonpath.ps1'
+[4.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pranav/ros2_ws/install/drone/share/drone/hook/pythonpath.dsv'
+[4.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pranav/ros2_ws/src/drone' returned '0': CONDA_PROMPT_MODIFIER=(ros2_jazzy) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/drone/prefix_override:/home/pranav/miniconda3/envs/ros2_jazzy/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages:${PYTHONPATH} /home/pranav/miniconda3/envs/ros2_jazzy/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone build --build-base /home/pranav/ros2_ws/build/drone/build install --record /home/pranav/ros2_ws/build/drone/install.log --single-version-externally-managed install_data
+[4.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/drone/share/drone/hook/pythonpath.sh'
+[4.722s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/drone/bin'
+[4.722s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone)
+[4.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/drone/share/drone/package.ps1'
+[4.723s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pranav/ros2_ws/install/drone/share/drone/package.dsv'
+[4.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/drone/share/drone/package.sh'
+[4.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/drone/share/drone/package.bash'
+[4.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/drone/share/drone/package.zsh'
+[4.726s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pranav/ros2_ws/install/drone/share/colcon-core/packages/drone)
+[4.898s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/turtle_tag_game' for CMake module files
+[4.899s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/turtle_tag_game' for CMake config files
+[4.899s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/turtle_tag_game/lib'
+[4.899s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/turtle_tag_game/bin'
+[4.899s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/turtle_tag_game/lib/pkgconfig/turtle_tag_game.pc'
+[4.900s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/turtle_tag_game/lib/python3.12/site-packages'
+[4.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_tag_game', 'pythonpath')
+[4.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/turtle_tag_game/share/turtle_tag_game/hook/pythonpath.ps1'
+[4.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pranav/ros2_ws/install/turtle_tag_game/share/turtle_tag_game/hook/pythonpath.dsv'
+[4.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pranav/ros2_ws/src/turtle_tag_game' returned '0': CONDA_PROMPT_MODIFIER=(ros2_jazzy) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/turtle_tag_game/prefix_override:/home/pranav/miniconda3/envs/ros2_jazzy/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/turtle_tag_game/lib/python3.12/site-packages:${PYTHONPATH} /home/pranav/miniconda3/envs/ros2_jazzy/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_tag_game build --build-base /home/pranav/ros2_ws/build/turtle_tag_game/build install --record /home/pranav/ros2_ws/build/turtle_tag_game/install.log --single-version-externally-managed install_data
+[4.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/turtle_tag_game/share/turtle_tag_game/hook/pythonpath.sh'
+[4.915s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/turtle_tag_game/bin'
+[4.915s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_tag_game)
+[4.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/turtle_tag_game/share/turtle_tag_game/package.ps1'
+[4.916s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pranav/ros2_ws/install/turtle_tag_game/share/turtle_tag_game/package.dsv'
+[4.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/turtle_tag_game/share/turtle_tag_game/package.sh'
+[4.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/turtle_tag_game/share/turtle_tag_game/package.bash'
+[4.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/turtle_tag_game/share/turtle_tag_game/package.zsh'
+[4.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pranav/ros2_ws/install/turtle_tag_game/share/colcon-core/packages/turtle_tag_game)
+[5.083s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/pet' for CMake module files
+[5.084s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/pet' for CMake config files
+[5.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pranav/ros2_ws/src/pet' returned '0': CONDA_PROMPT_MODIFIER=(ros2_jazzy) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/pet/prefix_override:/home/pranav/miniconda3/envs/ros2_jazzy/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/pet/lib/python3.12/site-packages:${PYTHONPATH} /home/pranav/miniconda3/envs/ros2_jazzy/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pet build --build-base /home/pranav/ros2_ws/build/pet/build install --record /home/pranav/ros2_ws/build/pet/install.log --single-version-externally-managed install_data
+[5.085s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/pet/lib'
+[5.085s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/pet/bin'
+[5.087s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/pet/lib/pkgconfig/pet.pc'
+[5.087s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/pet/lib/python3.12/site-packages'
+[5.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('pet', 'pythonpath')
+[5.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/pet/share/pet/hook/pythonpath.ps1'
+[5.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pranav/ros2_ws/install/pet/share/pet/hook/pythonpath.dsv'
+[5.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/pet/share/pet/hook/pythonpath.sh'
+[5.094s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/pet/bin'
+[5.094s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pet)
+[5.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/pet/share/pet/package.ps1'
+[5.095s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pranav/ros2_ws/install/pet/share/pet/package.dsv'
+[5.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/pet/share/pet/package.sh'
+[5.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/pet/share/pet/package.bash'
+[5.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/pet/share/pet/package.zsh'
+[5.101s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pranav/ros2_ws/install/pet/share/colcon-core/packages/pet)
+[5.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pranav/ros2_ws/src/fizzbuzz': AMENT_PREFIX_PATH=/home/pranav/ros2_ws/install/fizzbuzz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pranav/ros2_ws/install/fizzbuzz_interfaces:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_jazzy) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pranav/ros2_ws/install/fizzbuzz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pranav/ros2_ws/build/fizzbuzz/prefix_override:/home/pranav/miniconda3/envs/ros2_jazzy/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/fizzbuzz/lib/python3.12/site-packages:/home/pranav/ros2_ws/install/fizzbuzz_interfaces/lib/python3.13/site-packages:/home/pranav/ros2_ws/install/fizzbuzz_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /home/pranav/miniconda3/envs/ros2_jazzy/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fizzbuzz build --build-base /home/pranav/ros2_ws/build/fizzbuzz/build install --record /home/pranav/ros2_ws/build/fizzbuzz/install.log --single-version-externally-managed install_data
+[6.412s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz' for CMake module files
+[6.412s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz' for CMake config files
+[6.412s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz/lib'
+[6.412s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz/bin'
+[6.413s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz/lib/pkgconfig/fizzbuzz.pc'
+[6.413s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz/lib/python3.12/site-packages'
+[6.413s] Level 1:colcon.colcon_core.shell:create_environment_hook('fizzbuzz', 'pythonpath')
+[6.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/fizzbuzz/share/fizzbuzz/hook/pythonpath.ps1'
+[6.413s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pranav/ros2_ws/install/fizzbuzz/share/fizzbuzz/hook/pythonpath.dsv'
+[6.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pranav/ros2_ws/src/fizzbuzz' returned '0': AMENT_PREFIX_PATH=/home/pranav/ros2_ws/install/fizzbuzz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pranav/ros2_ws/install/fizzbuzz_interfaces:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_jazzy) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pranav/ros2_ws/install/fizzbuzz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pranav/ros2_ws/build/fizzbuzz/prefix_override:/home/pranav/miniconda3/envs/ros2_jazzy/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/fizzbuzz/lib/python3.12/site-packages:/home/pranav/ros2_ws/install/fizzbuzz_interfaces/lib/python3.13/site-packages:/home/pranav/ros2_ws/install/fizzbuzz_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /home/pranav/miniconda3/envs/ros2_jazzy/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fizzbuzz build --build-base /home/pranav/ros2_ws/build/fizzbuzz/build install --record /home/pranav/ros2_ws/build/fizzbuzz/install.log --single-version-externally-managed install_data
+[6.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ros2_ws/install/fizzbuzz/share/fizzbuzz/hook/pythonpath.sh'
+[6.422s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ros2_ws/install/fizzbuzz/bin'
+[6.422s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fizzbuzz)
+[6.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/fizzbuzz/share/fizzbuzz/package.ps1'
+[6.426s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pranav/ros2_ws/install/fizzbuzz/share/fizzbuzz/package.dsv'
+[6.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/fizzbuzz/share/fizzbuzz/package.sh'
+[6.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/fizzbuzz/share/fizzbuzz/package.bash'
+[6.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ros2_ws/install/fizzbuzz/share/fizzbuzz/package.zsh'
+[6.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pranav/ros2_ws/install/fizzbuzz/share/colcon-core/packages/fizzbuzz)
+[6.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.439s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.439s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.440s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.446s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[6.450s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.451s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.451s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify_send'
+[6.631s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.632s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pranav/ros2_ws/install/local_setup.ps1'
+[6.633s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pranav/ros2_ws/install/_local_setup_util_ps1.py'
+[6.637s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pranav/ros2_ws/install/setup.ps1'
+[6.647s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pranav/ros2_ws/install/local_setup.sh'
+[6.650s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pranav/ros2_ws/install/_local_setup_util_sh.py'
+[6.651s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pranav/ros2_ws/install/setup.sh'
+[6.655s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pranav/ros2_ws/install/local_setup.bash'
+[6.657s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pranav/ros2_ws/install/setup.bash'
+[6.663s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pranav/ros2_ws/install/local_setup.zsh'
+[6.664s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pranav/ros2_ws/install/setup.zsh'

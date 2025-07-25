@@ -598,7 +598,7 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/pranav/miniconda3/bin/python3][/home/pranav/miniconda3/include/python3.13][/home/pranav/miniconda3/lib/libpython3.13.so][/home/pranav/miniconda3/lib/python3.13/site-packages/numpy/_core/include][cfound components: Interpreter Development NumPy Development.Module Development.Embed ][v3.13.5()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/pranav/miniconda3/bin/python3][/home/pranav/miniconda3/include/python3.13][/home/pranav/miniconda3/lib/libpython3.13.so][/home/pranav/miniconda3/lib/python3.13/site-packages/numpy/core/include][cfound components: Interpreter Development NumPy Development.Module Development.Embed ][v3.13.5()]
 //Details about finding PythonExtra
 FIND_PACKAGE_MESSAGE_DETAILS_PythonExtra:INTERNAL=[/home/pranav/miniconda3/bin/python3][/home/pranav/miniconda3/bin/python3][v()]
 //The directory for Python library installation. This needs to
@@ -618,9 +618,11 @@ _Python3_INCLUDE_DIR:INTERNAL=/home/pranav/miniconda3/include/python3.13
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;13;5;64;;cpython-313-aarch64-linux-gnu;abi3;/home/pranav/miniconda3/lib/python3.13;/home/pranav/miniconda3/lib/python3.13;/home/pranav/miniconda3/lib/python3.13/site-packages;/home/pranav/miniconda3/lib/python3.13/site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=8b94b97bdcb187b3542d6fb62a0482c2
+//Interpreter reason failure
+_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //Path to a library.
 _Python3_LIBRARY_RELEASE:INTERNAL=/home/pranav/miniconda3/lib/libpython3.13.so
 _Python3_NUMPY_SIGNATURE:INTERNAL=e5571cbfec9a87cf6038ebe532947ef2
 //Path to a file.
-_Python3_NumPy_INCLUDE_DIR:INTERNAL=/home/pranav/miniconda3/lib/python3.13/site-packages/numpy/_core/include
+_Python3_NumPy_INCLUDE_DIR:INTERNAL=/home/pranav/miniconda3/lib/python3.13/site-packages/numpy/core/include
 

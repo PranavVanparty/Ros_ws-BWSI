@@ -1,0 +1,31 @@
+[3.146s] Invoking command in '/home/pranav/ros2_ws/src/drone': CONDA_PROMPT_MODIFIER=(ros2_jazzy) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/drone/prefix_override:/home/pranav/miniconda3/envs/ros2_jazzy/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages:${PYTHONPATH} /home/pranav/miniconda3/envs/ros2_jazzy/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone build --build-base /home/pranav/ros2_ws/build/drone/build install --record /home/pranav/ros2_ws/build/drone/install.log --single-version-externally-managed install_data
+[3.339s] /home/pranav/miniconda3/envs/ros2_jazzy/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.339s]   warnings.warn(msg)
+[3.541s] running egg_info
+[3.555s] writing ../../build/drone/drone.egg-info/PKG-INFO
+[3.556s] writing dependency_links to ../../build/drone/drone.egg-info/dependency_links.txt
+[3.558s] writing entry points to ../../build/drone/drone.egg-info/entry_points.txt
+[3.563s] writing requirements to ../../build/drone/drone.egg-info/requires.txt
+[3.563s] writing top-level names to ../../build/drone/drone.egg-info/top_level.txt
+[3.624s] reading manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+[3.628s] writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+[3.628s] running build
+[3.632s] running build_py
+[3.632s] copying drone/linearReg.py -> /home/pranav/ros2_ws/build/drone/build/lib/drone
+[3.633s] copying drone/__init__.py -> /home/pranav/ros2_ws/build/drone/build/lib/drone
+[3.633s] copying drone/pathfinder.py -> /home/pranav/ros2_ws/build/drone/build/lib/drone
+[3.634s] copying drone/AprilTags.py -> /home/pranav/ros2_ws/build/drone/build/lib/drone
+[3.638s] running install
+[3.645s] running install_lib
+[3.703s] copying /home/pranav/ros2_ws/build/drone/build/lib/drone/AprilTags.py -> /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone
+[3.703s] byte-compiling /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone/AprilTags.py to AprilTags.cpython-312.pyc
+[3.704s] running install_data
+[3.705s] copying resource/drone -> /home/pranav/ros2_ws/install/drone/share/ament_index/resource_index/packages
+[3.708s] copying package.xml -> /home/pranav/ros2_ws/install/drone/share/drone
+[3.708s] running install_egg_info
+[3.736s] removing '/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone-0.0.0-py3.12.egg-info' (and everything under it)
+[3.738s] Copying ../../build/drone/drone.egg-info to /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone-0.0.0-py3.12.egg-info
+[3.739s] running install_scripts
+[3.971s] Installing pathfinder script to /home/pranav/ros2_ws/install/drone/lib/drone
+[3.973s] writing list of installed files to '/home/pranav/ros2_ws/build/drone/install.log'
+[4.041s] Invoked command in '/home/pranav/ros2_ws/src/drone' returned '0': CONDA_PROMPT_MODIFIER=(ros2_jazzy) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/drone/prefix_override:/home/pranav/miniconda3/envs/ros2_jazzy/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages:${PYTHONPATH} /home/pranav/miniconda3/envs/ros2_jazzy/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone build --build-base /home/pranav/ros2_ws/build/drone/build install --record /home/pranav/ros2_ws/build/drone/install.log --single-version-externally-managed install_data

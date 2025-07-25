@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/turtle_tag_game/turtle_tag_game.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_tag_game/turtle_tag_game.egg-info/dependency_links.txt
+writing requirements to ../../build/turtle_tag_game/turtle_tag_game.egg-info/requires.txt
+writing top-level names to ../../build/turtle_tag_game/turtle_tag_game.egg-info/top_level.txt
+reading manifest file '../../build/turtle_tag_game/turtle_tag_game.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_tag_game/turtle_tag_game.egg-info/SOURCES.txt'
+running build
+running build_py
+copying turtle_tag_game/pose_sub_and_pub.py -> /home/pranav/ros2_ws/build/turtle_tag_game/build/lib/turtle_tag_game
+copying turtle_tag_game/__init__.py -> /home/pranav/ros2_ws/build/turtle_tag_game/build/lib/turtle_tag_game
+running install
+running install_lib
+running install_data
+copying resource/turtle_tag_game -> /home/pranav/ros2_ws/install/turtle_tag_game/share/ament_index/resource_index/packages
+copying package.xml -> /home/pranav/ros2_ws/install/turtle_tag_game/share/turtle_tag_game
+running install_egg_info
+removing '/home/pranav/ros2_ws/install/turtle_tag_game/lib/python3.12/site-packages/turtle_tag_game-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/turtle_tag_game/turtle_tag_game.egg-info to /home/pranav/ros2_ws/install/turtle_tag_game/lib/python3.12/site-packages/turtle_tag_game-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/pranav/ros2_ws/build/turtle_tag_game/install.log'

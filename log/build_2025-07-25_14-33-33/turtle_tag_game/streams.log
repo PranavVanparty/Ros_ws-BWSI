@@ -1,0 +1,19 @@
+[2.299s] Invoking command in '/home/pranav/ros2_ws/src/turtle_tag_game': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/turtle_tag_game/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/turtle_tag_game/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_tag_game build --build-base /home/pranav/ros2_ws/build/turtle_tag_game/build install --record /home/pranav/ros2_ws/build/turtle_tag_game/install.log --single-version-externally-managed install_data
+[2.644s] running egg_info
+[2.677s] writing ../../build/turtle_tag_game/turtle_tag_game.egg-info/PKG-INFO
+[2.678s] writing dependency_links to ../../build/turtle_tag_game/turtle_tag_game.egg-info/dependency_links.txt
+[2.678s] writing requirements to ../../build/turtle_tag_game/turtle_tag_game.egg-info/requires.txt
+[2.683s] writing top-level names to ../../build/turtle_tag_game/turtle_tag_game.egg-info/top_level.txt
+[2.721s] reading manifest file '../../build/turtle_tag_game/turtle_tag_game.egg-info/SOURCES.txt'
+[2.722s] writing manifest file '../../build/turtle_tag_game/turtle_tag_game.egg-info/SOURCES.txt'
+[2.727s] running build
+[2.727s] running build_py
+[2.727s] running install
+[2.733s] running install_lib
+[2.754s] running install_data
+[2.754s] running install_egg_info
+[2.780s] removing '/home/pranav/ros2_ws/install/turtle_tag_game/lib/python3.12/site-packages/turtle_tag_game-0.0.0-py3.12.egg-info' (and everything under it)
+[2.785s] Copying ../../build/turtle_tag_game/turtle_tag_game.egg-info to /home/pranav/ros2_ws/install/turtle_tag_game/lib/python3.12/site-packages/turtle_tag_game-0.0.0-py3.12.egg-info
+[2.790s] running install_scripts
+[3.134s] writing list of installed files to '/home/pranav/ros2_ws/build/turtle_tag_game/install.log'
+[3.461s] Invoked command in '/home/pranav/ros2_ws/src/turtle_tag_game' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/turtle_tag_game/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/turtle_tag_game/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_tag_game build --build-base /home/pranav/ros2_ws/build/turtle_tag_game/build install --record /home/pranav/ros2_ws/build/turtle_tag_game/install.log --single-version-externally-managed install_data
