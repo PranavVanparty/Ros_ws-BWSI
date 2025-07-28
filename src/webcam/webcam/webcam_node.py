@@ -15,7 +15,7 @@ class WebCamNode(Node):
         self.video = cv2.VideoCapture("udp://@:1234", cv2.CAP_FFMPEG)
 
         # Wait for a valid frame (with timeout)
-        for _ in range(50):  # ~5 seconds
+        for _ in range(1):  
             ret, frame = self.video.read()
             if ret and frame is not None and frame.shape[0] > 0:
                 self.get_logger().info("Webcam stream locked in.")
@@ -25,7 +25,7 @@ class WebCamNode(Node):
             self.get_logger().error("Failed to lock onto webcam stream.")
             return
 
-        self.timer = self.create_timer(0.1, self.timer_callback)  # 10 Hz
+        self.timer = self.create_timer(0.00001, self.timer_callback)  # 100000 Hz
 
     def timer_callback(self):
         ret, frame = self.video.read()

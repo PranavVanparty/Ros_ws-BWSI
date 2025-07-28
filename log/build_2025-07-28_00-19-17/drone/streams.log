@@ -1,0 +1,20 @@
+[0.524s] Invoking command in '/home/pranav/ros2_ws/build/drone': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pranav/ros2_ws/build/drone/build --no-deps symlink_data --force
+[0.674s] running develop
+[0.757s] running egg_info
+[0.765s] writing drone.egg-info/PKG-INFO
+[0.765s] writing dependency_links to drone.egg-info/dependency_links.txt
+[0.765s] writing entry points to drone.egg-info/entry_points.txt
+[0.765s] writing requirements to drone.egg-info/requires.txt
+[0.765s] writing top-level names to drone.egg-info/top_level.txt
+[0.781s] reading manifest file 'drone.egg-info/SOURCES.txt'
+[0.782s] writing manifest file 'drone.egg-info/SOURCES.txt'
+[0.790s] running build_ext
+[0.790s] Creating /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone.egg-link (link to .)
+[0.791s] Installing apriltags script to /home/pranav/ros2_ws/install/drone/lib/drone
+[0.791s] Installing pathfinder script to /home/pranav/ros2_ws/install/drone/lib/drone
+[0.791s] 
+[0.791s] Installed /home/pranav/ros2_ws/build/drone
+[0.791s] running symlink_data
+[0.791s] symbolically linking /home/pranav/ros2_ws/build/drone/resource/drone -> /home/pranav/ros2_ws/install/drone/share/ament_index/resource_index/packages
+[0.791s] symbolically linking /home/pranav/ros2_ws/build/drone/package.xml -> /home/pranav/ros2_ws/install/drone/share/drone
+[0.810s] Invoked command in '/home/pranav/ros2_ws/build/drone' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pranav/ros2_ws/build/drone/build --no-deps symlink_data --force

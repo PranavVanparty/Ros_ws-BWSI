@@ -1,0 +1,37 @@
+[0.775s] Invoking command in '/home/pranav/ros2_ws/build/drone': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pranav/ros2_ws/build/drone/build
+[0.960s] running develop
+[1.078s] Removing /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone.egg-link (link to .)
+[1.105s] Invoked command in '/home/pranav/ros2_ws/build/drone' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pranav/ros2_ws/build/drone/build
+[1.106s] Invoking command in '/home/pranav/ros2_ws/src/drone': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone build --build-base /home/pranav/ros2_ws/build/drone/build install --record /home/pranav/ros2_ws/build/drone/install.log --single-version-externally-managed install_data --force
+[1.290s] running egg_info
+[1.303s] writing ../../build/drone/drone.egg-info/PKG-INFO
+[1.304s] writing dependency_links to ../../build/drone/drone.egg-info/dependency_links.txt
+[1.304s] writing entry points to ../../build/drone/drone.egg-info/entry_points.txt
+[1.305s] writing requirements to ../../build/drone/drone.egg-info/requires.txt
+[1.305s] writing top-level names to ../../build/drone/drone.egg-info/top_level.txt
+[1.338s] reading manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+[1.339s] writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+[1.340s] running build
+[1.341s] running build_py
+[1.341s] copying drone/pathfinder.py -> /home/pranav/ros2_ws/build/drone/build/lib/drone
+[1.341s] running install
+[1.349s] running install_lib
+[1.363s] creating /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone
+[1.363s] copying /home/pranav/ros2_ws/build/drone/build/lib/drone/linearReg.py -> /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone
+[1.363s] copying /home/pranav/ros2_ws/build/drone/build/lib/drone/__init__.py -> /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone
+[1.363s] copying /home/pranav/ros2_ws/build/drone/build/lib/drone/pathfinder.py -> /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone
+[1.363s] copying /home/pranav/ros2_ws/build/drone/build/lib/drone/AprilTags.py -> /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone
+[1.364s] byte-compiling /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone/linearReg.py to linearReg.cpython-312.pyc
+[1.364s] byte-compiling /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone/__init__.py to __init__.cpython-312.pyc
+[1.364s] byte-compiling /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone/pathfinder.py to pathfinder.cpython-312.pyc
+[1.366s] byte-compiling /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone/AprilTags.py to AprilTags.cpython-312.pyc
+[1.366s] running install_data
+[1.367s] copying resource/drone -> /home/pranav/ros2_ws/install/drone/share/ament_index/resource_index/packages
+[1.367s] copying package.xml -> /home/pranav/ros2_ws/install/drone/share/drone
+[1.367s] running install_egg_info
+[1.381s] Copying ../../build/drone/drone.egg-info to /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone-0.0.0-py3.12.egg-info
+[1.381s] running install_scripts
+[1.478s] Installing apriltags script to /home/pranav/ros2_ws/install/drone/lib/drone
+[1.478s] Installing pathfinder script to /home/pranav/ros2_ws/install/drone/lib/drone
+[1.479s] writing list of installed files to '/home/pranav/ros2_ws/build/drone/install.log'
+[1.508s] Invoked command in '/home/pranav/ros2_ws/src/drone' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone build --build-base /home/pranav/ros2_ws/build/drone/build install --record /home/pranav/ros2_ws/build/drone/install.log --single-version-externally-managed install_data --force

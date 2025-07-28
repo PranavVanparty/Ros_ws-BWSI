@@ -3,7 +3,7 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
 import cv2
-from linearReg import linearReg
+from drone.linearReg import linearReg
 from cv_bridge import CvBridge
 
 class pathfinder(Node):
@@ -46,3 +46,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
