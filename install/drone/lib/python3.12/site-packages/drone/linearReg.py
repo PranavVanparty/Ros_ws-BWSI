@@ -7,7 +7,7 @@ class linearReg():
 
     def calc_regression(self,points):
         x, y = points[:1], points[:0]
-        x_mean = np,mean(x)
+        x_mean = np.mean(x)
         y_mean = np.mean(y)
         xy_mean = np.mean(x * y)
         x_squared_mean = np.mean(x ** 2)

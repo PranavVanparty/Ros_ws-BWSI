@@ -10,6 +10,7 @@ setup.py
 ../../build/drone/drone.egg-info/zip-safe
 drone/AprilTags.py
 drone/__init__.py
+drone/calibration.py
 drone/linearReg.py
 drone/pathfinder.py
 resource/drone
