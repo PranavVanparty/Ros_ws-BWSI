@@ -9,7 +9,8 @@ from cv_bridge import CvBridge
 class pathfinder(Node):
     def __init__(self):
         super().__init__("pathfinder")
-        self.camera_sub = self.create_subscription(Image, "camera_feed/camera/image_raw", self.camera_callback, 10)
+        #self.camera_sub = self.create_subscription(Image, "camera/image_raw", self.camera_callback, 10)
+        elf.camera_sub = self.create_subscription(Image, "web_cam//image_raw", self.camera_callback, 10)
         self.processed_image_pub = self.create_publisher(Image, "processed_image", 10)
         self._logger.info("Pathfinder Node Initialized")
         self.linear_reg = linearReg()
