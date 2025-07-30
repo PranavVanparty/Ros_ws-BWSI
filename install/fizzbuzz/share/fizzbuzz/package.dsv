@@ -1,6 +1,0 @@
-source;share/fizzbuzz/hook/pythonpath.ps1
-source;share/fizzbuzz/hook/pythonpath.dsv
-source;share/fizzbuzz/hook/pythonpath.sh
-source;share/fizzbuzz/hook/ament_prefix_path.ps1
-source;share/fizzbuzz/hook/ament_prefix_path.dsv
-source;share/fizzbuzz/hook/ament_prefix_path.sh

@@ -1,0 +1,12 @@
+#Drone's position
+float32 drone_trans_x
+float32 drone_trans_y
+float32 drone_trans_z
+
+#Closest AprilTag
+int64 tag
+
+----
+
+#translation in the z axis
+float32 velocity_z

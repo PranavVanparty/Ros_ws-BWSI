@@ -1,3 +1,0 @@
-[console_scripts]
-pose_subscriber = pet.pose_subscriber:main
-turtle_controller = pet.turtle_controller:main

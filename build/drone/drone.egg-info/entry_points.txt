@@ -1,3 +1,0 @@
-[console_scripts]
-apriltags = drone.AprilTags:main
-pathfinder = drone.pathfinder:main

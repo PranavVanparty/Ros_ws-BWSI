@@ -1,2 +1,0 @@
-[console_scripts]
-webcam_node = webcam.webcam_node:main
