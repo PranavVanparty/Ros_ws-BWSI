@@ -5,7 +5,7 @@ import glob
 
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
 
-len_width = (5, 8)  # Number of inner corners per chessboard row and column (CORRECTED from 9,6)
+len_width = (6, 6)  # Number of inner corners per chessboard row and column (CORRECTED from 9,6)
 objp = np.zeros((len_width[0] * len_width[1], 3), np.float32)
 objp[:, :2] = np.mgrid[0:len_width[0], 0:len_width[1]].T.reshape(-1, 2)
 
@@ -82,4 +82,14 @@ else:
     print(f"Need at least 10 successful detections for good calibration. You have {successful_detections}.")
         
 cv2.destroyAllWindows()
+
+# WebCam Calibration:-
+
+# Camera Matrix:
+# [[344.38362872   0.         300.05122152]
+#  [  0.         342.21421392 223.68023377]
+#  [  0.           0.           1.        ]]
+
+# Distortion Coefficients:
+# [[-0.17758893  0.38761326 -0.07189361  0.02190879 -0.26175288]]
     

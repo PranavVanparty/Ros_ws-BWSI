@@ -1,0 +1,19 @@
+[0.847s] Invoking command in '/home/pranav/ros2_ws/build/drone': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranav/ros2_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pranav/ros2_ws/build/drone/build --no-deps symlink_data --force
+[1.073s] running develop
+[1.188s] running egg_info
+[1.201s] writing drone.egg-info/PKG-INFO
+[1.201s] writing dependency_links to drone.egg-info/dependency_links.txt
+[1.201s] writing entry points to drone.egg-info/entry_points.txt
+[1.201s] writing requirements to drone.egg-info/requires.txt
+[1.201s] writing top-level names to drone.egg-info/top_level.txt
+[1.223s] reading manifest file 'drone.egg-info/SOURCES.txt'
+[1.225s] writing manifest file 'drone.egg-info/SOURCES.txt'
+[1.238s] running build_ext
+[1.238s] Creating /home/pranav/ros2_ws/install/drone/lib/python3.12/site-packages/drone.egg-link (link to .)
+[1.238s] Installing apriltags script to /home/pranav/ros2_ws/install/drone/lib/drone
+[1.238s] Installing pathfinder script to /home/pranav/ros2_ws/install/drone/lib/drone
+[1.238s] 
+[1.238s] Installed /home/pranav/ros2_ws/build/drone
+[1.238s] running symlink_data
+[1.238s] symbolically linking /home/pranav/ros2_ws/build/drone/resource/drone -> /home/pranav/ros2_ws/install/drone/share/ament_index/resource_index/packages
+[1.238s] symbolically linking /home/pranav/ros2_ws/build/drone/package.xml -> /home/pranav/ros2_ws/install/drone/share/drone

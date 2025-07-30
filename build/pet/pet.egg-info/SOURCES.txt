@@ -11,7 +11,11 @@ setup.py
 pet/__init__.py
 pet/pose_subscriber.py
 pet/turtle_controller.py
+pet.egg-info/PKG-INFO
+pet.egg-info/SOURCES.txt
+pet.egg-info/dependency_links.txt
+pet.egg-info/entry_points.txt
+pet.egg-info/requires.txt
+pet.egg-info/top_level.txt
+pet.egg-info/zip-safe
 resource/pet
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

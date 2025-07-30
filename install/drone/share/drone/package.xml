@@ -12,6 +12,7 @@
   <exec_depend>cv_bridge</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>
   <exec_depend>opencv-python</exec_depend>
+  <exec_depend>april_tag_msg</exec_depend>
   <exec_depend>numpy</exec_depend>
 
   <test_depend>ament_copyright</test_depend>

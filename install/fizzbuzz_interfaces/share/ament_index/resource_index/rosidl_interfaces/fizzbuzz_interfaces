@@ -1,1 +1,2 @@
-/home/pranav/ros2_ws/build/fizzbuzz_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/fizzbuzz_interfaces
+msg/FizzBuzz.idl
+msg/FizzBuzz.msg

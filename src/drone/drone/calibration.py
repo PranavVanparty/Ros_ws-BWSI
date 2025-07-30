@@ -5,7 +5,7 @@ import glob
 
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
 
-len_width = (5, 8)  # Number of inner corners per chessboard row and column (CORRECTED from 9,6)
+len_width = (6, 6)  # Number of inner corners per chessboard row and column (CORRECTED from 9,6)
 objp = np.zeros((len_width[0] * len_width[1], 3), np.float32)
 objp[:, :2] = np.mgrid[0:len_width[0], 0:len_width[1]].T.reshape(-1, 2)
 
