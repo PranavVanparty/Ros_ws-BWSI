@@ -4,7 +4,7 @@ import numpy as np
 
 from sensor_msgs.msg import Image as ImageMsg
 from geometry_msgs.msg import Point 
-from translation_center.srv import avoid_obstacle
+from translation_center.srv import AvoidObstacle
 from std_msgs.msg import Int16
 
 import cv2
@@ -19,7 +19,7 @@ class AprilTags(Node):
         self.at_image_pub = self.create_publisher(ImageMsg, "/april_tags", 10)
         self.pos_pub = self.create_publisher(Point, "/drone_position", 10)
 
-        self.translation_client = self.create_client(avoid_obstacle, "translation")
+        self.translation_client = self.create_client(AvoidObstacle, "translation")
         while not self.translation_client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('service not available, waiting again...')
 
@@ -156,7 +156,7 @@ class AprilTags(Node):
         if tag is None:
             return
 
-        request = avoid_obstacle.Request()
+        request = AvoidObstacle.Request()
         request.drone_trans_x = pose.x
         request.drone_trans_y = pose.y
         request.drone_trans_z = pose.z

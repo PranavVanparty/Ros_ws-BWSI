@@ -3,12 +3,12 @@ from rclpy.node import Node
 import numpy as np
 from std_msgs.msg import Float32
 from std_msgs.msg import Int16
-from translation_center.srv import avoid_obstacle
+from translation_center.srv import AvoidObstacle
 
 class FindCenter(Node):
     def __init__(self):
         super().__init__("find_center")
-        self.translation_service = self.create_service(avoid_obstacle, "translation", self.translation_callback)
+        self.translation_service = self.create_service(AvoidObstacle, "translation", self.translation_callback)
         self.get_logger().info("Find Center Node Initialized")
 
         #! Put in correct positions
