@@ -2,50 +2,70 @@ import rclpy
 from rclpy.node import Node
 import numpy as np
 from std_msgs.msg import Float32
-from translation_center.srv import translation_data
+from std_msgs.msg import Int16
+from translation_center.srv import avoid_obstacle
 
 class FindCenter(Node):
     def __init__(self):
         super().__init__("find_center")
-        self.translation_service = self.create_service(translation_data, "translation/y", self.translation_callback)
+        self.translation_service = self.create_service(avoid_obstacle, "translation", self.translation_callback)
         self.get_logger().info("Find Center Node Initialized")
-        self.april_tag_dictionary = {
-            1: Float32(10),
-            2: Float32(5),
-            3: Float32(10)
+
+        #! Put in correct positions
+        #* The center will be the origin
+        self.obstacle_dictionary = {
+            #---Circle---# x,y,z translation TO the center. Relative to the tag.
+            1: (10.0, 0.0, 0.0), 
+            2: (0.0, -10.0, 0.0),
+            3: (0.0, 0.0, -10.0),
+            4: (0.0, 10.0, 0.0),
+            #----ARC----#
+            5: (5.0, 0.0, 0.0),
+            6: (0.0, -5.0, 0.0),
+            7: (0.0, 0.0, -5.0)
         }
-        self.prev_error = 0.0
+        self.prev_error_z = 0.0
+        self.integral_z = 0.0
         self.kp = 0.003
+        self.ki = 0.001
+        self.kd = 0.0005
         self.dt = 0.1  # Fixed change in time
 
 
     def translation_callback(self, request, response):
         #extract the drone's data from the request
-        center_dist = self.april_tag_dictionary(request.tag)
+        center_dist_tuple = self.obstacle_dictionary.get(request.tag)
+        if center_dist_tuple is None:
+            self.get_logger().error(f"Tag ID {request.tag} not found in obstacle dictionary")
+            response.velocity_z = 0
+            return response
+            
+        center_dist_z = center_dist_tuple[2]
         drone_z = request.drone_trans_z #translation from the drone to the tag in z-axis
 
         # Calculate the error in the z-axis
-        error_z = center_dist.data - drone_z
+        error_z = center_dist_z - drone_z
 
-        # Calculate the velocity in the z-axis
-        #Proportional controller
-        
-        velocity_z = error_z * self.kp 
+        # --- PID Controller ---
+        # Proportional term
+        p_vel = self.kp * error_z
 
-        # integral controller
-        integral_z = error_z * self.dt
+        # Integral term
+        self.integral_z += error_z * self.dt
+        i_vel = self.ki * self.integral_z
 
-        # Derivative controller
-        derivative_z = (error_z - self.prev_error) / self.dt
+        # Derivative term
+        derivative_z = (error_z - self.prev_error_z) / self.dt
+        d_vel = self.kd * derivative_z
 
         # Update previous error
-        self.prev_error = error_z
+        self.prev_error_z = error_z
 
         # Combine all controllers
-        celocity_z = velocity_z + integral_z + derivative_z
+        velocity_z = p_vel + i_vel + d_vel
 
         # Set the response
-        response.velocity_z = velocity_z
+        response.velocity_z = int(velocity_z)
         return response
     
 
@@ -55,6 +75,6 @@ def main(args=None):
     rclpy.spin(find_center_node)
     find_center_node.destroy_node()
     rclpy.shutdown()   
-     
+
 if __name__ == "__main__":
     main()

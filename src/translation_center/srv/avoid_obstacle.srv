@@ -4,9 +4,9 @@ float32 drone_trans_y
 float32 drone_trans_z
 
 #Closest AprilTag
-int64 tag
+int16 tag
 
 ----
 
 #translation in the z axis
-float32 velocity_z
+int64 velocity_z
